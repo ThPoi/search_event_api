@@ -13,10 +13,11 @@ define ('URL','http://localhost:8888/search_event_api/public/');
  //define controller
  $controller = '404';
 
- if($q == 'home')
-{
+ if($q == 'home') {
     $controller = 'home';
-} 
+} else if($q == 'map') {
+    $controller = 'map';
+}
 
 /**
  * prepare your POST here

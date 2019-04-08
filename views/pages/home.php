@@ -9,12 +9,6 @@
     <a href="<?= URL ?>page/1">Read more</a>
 </article>
 
-<article>
-    <h3>Page 2</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae laudantium cupiditate veritatis explicabo aliquid ratione cumque, tempora itaque laboriosam repellendus ad, quidem ipsam, voluptate vel? Explicabo laborum eos quisquam aliquid.</p>
-    <a href="<?= URL ?>page/2">Read more</a>
-</article>
-
 
 <!-- Exemple of post rendering POST -->
 
