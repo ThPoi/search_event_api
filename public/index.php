@@ -5,7 +5,7 @@
  * Routing
  */
 
-define ('URL','http://localhost:8888/search_event_api/public/');
+define ('URL','http://localhost:8888/developpement/search_event_api/public/');
 
  //Get q param
  $q = !empty($_GET['q']) ? $_GET['q'] : 'home';
@@ -17,6 +17,8 @@ define ('URL','http://localhost:8888/search_event_api/public/');
     $controller = 'home';
 } else if($q == 'map') {
     $controller = 'map';
+} else {
+    $controller = 'home';
 }
 
 /**
