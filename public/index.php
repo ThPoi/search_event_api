@@ -1,12 +1,11 @@
 <?php
 
-include '../database/database.php';
 
 /**
  * Routing
  */
 
-define ('URL','http://localhost/ProjetH2/TEST_H2/public/');
+define ('URL','http://localhost:8888/Developpement/search_event_api/public/');
 
  //Get q param
  $q = !empty($_GET['q']) ? $_GET['q'] : 'home';
