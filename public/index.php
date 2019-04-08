@@ -16,14 +16,7 @@ define ('URL','http://localhost:8888/Developpement/search_event_api/public/');
  if($q == 'home')
 {
     $controller = 'home';
-} else if ($q == 'about-us')
-{
-    $controller = 'about';
-} else if (preg_match('/^page\/[1-9][0-9]*$/', $q))
-{
-    $controller = 'page';
-}
- 
+} 
 
 /**
  * prepare your POST here
