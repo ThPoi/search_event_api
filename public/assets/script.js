@@ -1,9 +1,25 @@
-const mainSearch = document.querySelector('.main_search')
-const searchFilterAll = mainSearch.querySelectorAll('.search_filter')
-const searchSelect = mainSearch.querySelector('.search_select')
+const mainSearchContainer = document.querySelector('.main_search_background')
+const searchFilterAll = document.querySelectorAll('.search_filter')
+const selectSearchAll = document.querySelectorAll('.search_select-hidden')
 
-searchFilterAll.forEach(function(searchFilter) {
+
+
+searchFilterAll.forEach(function(searchFilter, index)   
+{
     searchFilter.addEventListener('click', () => {
-        searchSelect.classList.toggle('search_filter-block')
+
+
+        selectSearchAll.forEach(function(selectSearch) 
+        {
+            if(selectSearch.classList.contains('search_select-block'))
+            {
+                selectSearch.classList.toggle('search_select-block')
+            }
+        })
+        const searchSelect = document.querySelector(`.select-${index}`)
+        searchSelect.classList.toggle('search_select-block')    
+
     })
 })
+
+
