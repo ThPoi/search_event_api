@@ -144,6 +144,7 @@
             
             .search_filter_container {
                 flex-direction: column;
+                justify-content: space-around;
 
 
                 .search_filter_emoji {
@@ -151,6 +152,16 @@
                     margin: 0 auto;
                     animation: menuMove 0.5s ease-in-out infinite alternate;
 
+                }
+                @keyframes menuMove {
+                    from {
+                        transform: translateY(8px) rotate(45deg);
+                    }
+                  
+                    to {
+                        transform: translateY(0px) rotate(45deg);
+                
+                    }
                 }
                 p {
                     text-align: center;
