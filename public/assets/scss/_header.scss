@@ -1,7 +1,8 @@
 header {
     background-color: $main-color;
     border-bottom: 1px solid $bottom-grey;
-
+    position:relative;
+    z-index:11111;
     .container {
         display: flex;
         align-items: center;

@@ -12,13 +12,15 @@ $border: #EBEBEB;
 
 body {
     font-family: sans-serif;
-<<<<<<< HEAD
-}
-.main {
-    width: 100vw;
-    height: 100vh;
-=======
     padding:0;
     margin:0;
->>>>>>> 0355b5829e8ee0a5a8cde8f83f31516ae91a1a2d
 }
+
+.marker {
+    background-color: red;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
