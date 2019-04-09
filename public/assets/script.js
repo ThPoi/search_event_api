@@ -1,13 +1,14 @@
 const mainSearchContainer = document.querySelector('.main_search_background')
 const searchFilterAll = document.querySelectorAll('.search_filter')
 const selectSearchAll = document.querySelectorAll('.search_select-hidden')
+console.log('pute');
 
 
 
 searchFilterAll.forEach(function(searchFilter, index)   
 {
-    searchFilter.addEventListener('click', () => {
 
+    searchFilter.addEventListener('click', () => {
 
         selectSearchAll.forEach(function(selectSearch) 
         {

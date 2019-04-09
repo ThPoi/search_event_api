@@ -1,15 +1,15 @@
 <?php include '../views/partials/header.php' ?>
 
-<main class="main">
+<div class="main__search_container">
     <div class="main_search_background">
         <div class="main_search">
             <div class="main_search_event">
                 <svg viewBox="0 0 16 16" role="presentation" aria-hidden="true" focusable="false" style="height: 32; width: 32; display: block; fill: currentcolor;"><path d="m2.5 7c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5-2 4.5-4.5 4.5-4.5-2-4.5-4.5m13.1 6.9-2.8-2.9c.7-1.1 1.2-2.5 1.2-4 0-3.9-3.1-7-7-7s-7 3.1-7 7 3.1 7 7 7c1.5 0 2.9-.5 4-1.2l2.9 2.8c.2.3.5.4.9.4.3 0 .6-.1.8-.4.5-.5.5-1.2 0-1.7"></path></svg>
                 <input placeholder="Rechercher des festivals" />
             </div>
-            <div class="main_search_container">
+            <div class="search_filter_container">
                 <div class="search_filter">
-                    <div class="search_filter_container">
+                    <div class="search_filter_type">
                         <div class="search_filter_emoji">🎶</div>
                         <p class="search_filter_name">Catégories</p>
                     </div>
@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="search_filter">
-                    <div class="search_filter_container">
+                    <div class="search_filter_type">
                         <div class="search_filter_emoji">🎉</div>
                         <p class="search_filter_name">Populaires</p>
                     </div>
@@ -27,7 +27,7 @@
                     </div>
                 </div>
                 <div class="search_filter">
-                    <div class="search_filter_container">
+                    <div class="search_filter_type">
                         <div class="search_filter_emoji">📍</div>
                         <p class="search_filter_name">Localisation</p>
                     </div>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="search_filter">
-                    <div class="search_filter_container">
+                    <div class="search_filter_type">
                         <div class="search_filter_emoji">📅</div>
                         <p class="search_filter_name">Date</p>
                     </div>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="search_filter">
-                    <div class="search_filter_container">
+                    <div class="search_filter_type">
                         <div class="search_filter_emoji">💸</div>
                         <p class="search_filter_name">Prix</p>
                     </div>
@@ -82,11 +82,11 @@
                 <a href="#">Appliquer</a>
             </div>
             <div class="search_select-hidden select-4">
-                <input type="number"/>
+                <input type="range"/>
                 <a href="#">Appliquer</a>
             </div>
         </div>
     </div>
 
-</main>
+</div>
 <?php include '../views/partials/footer.php' ?> 

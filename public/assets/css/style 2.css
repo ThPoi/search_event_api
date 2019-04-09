@@ -282,19 +282,15 @@ header .container .header_nav ul li a {
   height: 40px;
   background: #ffffff;
   color: black;
-  border-radius: 15px;
+  border-radius: 3px;
   border: 1px solid #EBEBEB;
 }
 .main_search_background .search_select_all .search_select-block a {
   color: #EB606D;
 }
-.main_search_background .search_select_all .search_select-block select, .main_search_background .search_select_all .search_select-block input {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 50%;
-  border-bottom: 1px solid #EBEBEB;
+.main_search_background .search_select_all .search_select-block select {
+  padding: 40%;
+  border: 1px solid #EBEBEB;
 }
 
 .main_search {
@@ -380,10 +376,10 @@ header .container .header_nav ul li a {
   }
   @keyframes menuMove {
     from {
-      transform: translateY(8px);
+      transform: translateY(8px) rotate(45deg);
     }
     to {
-      transform: translateY(6px);
+      transform: translateY(6px) rotate(45deg);
     }
   }
   .search_filter_container .search_filter .search_filter_type p {
