@@ -1,64 +1,12 @@
 <?php include '../views/partials/header.php' ?>
 
-<h1>Home</h1>
-
-<article>
-    <h3>Page 1</h3>
-    <p>Sent to the API</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae laudantium cupiditate veritatis explicabo aliquid ratione cumque, tempora itaque laboriosam repellendus ad, quidem ipsam, voluptate vel? Explicabo laborum eos quisquam aliquid.</p>
-    <a href="<?= URL ?>page/1">Read more</a>
-</article>
-
-
-<!-- Exemple of post rendering POST -->
-
-<h1>Add Line in Database</h1>
-    <form action="#" method="post">
+<main class="main">
+    <div class="main_search">
         <div>
-            <textarea required name="input1" cols="50" rows="5" placeholder="text..."></textarea>
+            <svg viewBox="0 0 16 16" role="presentation" aria-hidden="true" focusable="false" style="height: 18px; width: 18px; display: block; fill: currentcolor;"><path d="m2.5 7c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5-2 4.5-4.5 4.5-4.5-2-4.5-4.5m13.1 6.9-2.8-2.9c.7-1.1 1.2-2.5 1.2-4 0-3.9-3.1-7-7-7s-7 3.1-7 7 3.1 7 7 7c1.5 0 2.9-.5 4-1.2l2.9 2.8c.2.3.5.4.9.4.3 0 .6-.1.8-.4.5-.5.5-1.2 0-1.7"></path></svg>
+            <input placeholder="Rechercher des festivals" />
         </div>
-        <div>
-            <input required name="input2" type="datetime-local">
-        </div>
-        <div>
-
-        <?php
-            $exemp = [
-                1,
-                2,
-                3,
-                4
-            ];
-        ?>
-
-            <select name="input3">
-                <?php foreach($exemp as $_exemp): ?>
-                    <option value="<?= $_exemp ?>"><?= $_exemp ?></option>
-                <?php endforeach; ?>
-            </select>
-        </div>
-        <div>
-            <input type="submit">
-        </div>
-    </form>
-
-    <h1>Database</h1>
-
-    <table>
-        <tr>
-            <th>Text</th>
-            <th>Date</th>
-            <th>entier</th>
-        </tr>
-
-        <?php foreach($returnedData as $_returnedData): ?>
-            <tr>
-                <td><?= $_returnedData->column1 ?></td>
-                <td><?= date('d/m/Y H:i', $_returnedData->column2) ?></td>
-                <td><?= $_returnedData->column3 ?></td>
-            </tr>
-        <?php endforeach; ?>
-    </table>
-
-
-<?php include '../views/partials/footer.php' ?>
+       
+    </div>
+</main>
+<?php include '../views/partials/footer.php' ?> 
