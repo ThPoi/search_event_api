@@ -1,8 +1,9 @@
 header {
-    background-color: $main-color;
+    background-color: $white;
     border-bottom: 1px solid $bottom-grey;
     position:relative;
     z-index:11111;
+
     .container {
         display: flex;
         align-items: center;
@@ -61,7 +62,7 @@ header {
     }
         
         .header_nav {
-            color: $white;
+            color: black;
             font-size: 15px;
             font-weight: 500;
             margin-left: 20px;
