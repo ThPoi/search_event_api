@@ -1,5 +1,5 @@
 header {
-    background-color: $white;
+    background-color: $main-color;
     border-bottom: 1px solid $bottom-grey;
 
     .container {
@@ -23,12 +23,15 @@ header {
         }
         .header_search:focus-within {
             box-shadow: 0 2px 4px $shadow-grey-dark;
+        
+            
         }
         .header_search {
     
-            box-shadow: 0 2px 4px $shadow-grey;
+            box-shadow: 0 2px 3px $shadow-grey;
             border: 1px solid $border;
             border-radius: 3px;
+            background-color: $white;
             height: 48px;
             display: flex;
             justify-items: center;
@@ -42,20 +45,22 @@ header {
     
         }
         input {
-            width: 90% !important;
-            background-color: white;
+            width: 88% !important;
+            background-color: $white;
 
             ::placeholder {
-                color: $placeholder-grey;
+                color: $grey;
                 font-weight: 700;
             }
+
         }
 
+        
 
     }
         
         .header_nav {
-            color: $font-grey;
+            color: $white;
             font-size: 15px;
             font-weight: 500;
             margin-left: 20px;

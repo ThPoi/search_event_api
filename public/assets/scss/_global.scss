@@ -3,12 +3,17 @@ $main-color: #EB606D;
 $white: #ffffff;
 $bottom-grey: rgb(228, 228, 228);
 $font-grey:#484848;
-$placeholder-grey: #686868;
+$grey: #686868;
 $shadow-grey: rgba(0,0,0,0.1);
 $shadow-grey-dark: rgba(0,0,0,0.4);
+$black: black;
 
 $border: #EBEBEB;
 
 body {
     font-family: sans-serif;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
 }
