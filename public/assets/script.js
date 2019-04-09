@@ -19,7 +19,4 @@ searchFilterAll.forEach(function(searchFilter, index)
         const searchSelect = document.querySelector(`.select-${index}`)
         searchSelect.classList.toggle('search_select-block')    
 
-    })
-})
-
-
+})})
