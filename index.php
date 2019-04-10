@@ -21,11 +21,7 @@ $resultFilter = curl_exec($curlFilter);
 curl_close($curlFilter);
 $resultFilter = json_decode(json_encode($resultFilter), true);
 
-echo '<pre>';
-var_dump($resultFilter);
-echo '</pre>';
 
-include '../views/pages/home.php';
 include './partials/header.php' ?>
 
 <?php include './partials/footer.php' ?>

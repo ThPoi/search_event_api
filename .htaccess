@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule event/([a-zA-Z0-9\-]+)	event.php?id=$1
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^(.*)$ $1.php
