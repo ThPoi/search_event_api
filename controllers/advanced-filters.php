@@ -1,12 +1,25 @@
 <?php
 
+// use filter
+
+if(!empty($_GET))
+{
+    $categorieValue = $_GET['categorie'];
+
+}     
+
+
 $title = 'Home';
 
 $urlFilter = 'https://app.ticketmaster.com/discovery/v2/events.json?';
 $urlFilter .= http_build_query([
     'apikey' => '3gDxxU8POu1umcTRMNSF4AGqgtUzc2md',
     'size' => '20',
-    'countryCode' => 'US'
+    'countryCode' => 'US',
+    'segmentName' => !empty($categorieValue) ? $categorieValue : '',
+    'latlong' => !empty($selectValue) ? $selectValue : '',
+
+
 ]);
 
 // Make request to API
@@ -20,10 +33,7 @@ curl_setopt($curlFilter, CURLOPT_SSL_VERIFYHOST, false);
 
 $resultFilter = curl_exec($curlFilter);
 curl_close($curlFilter);
-$resultFilter = json_decode(json_encode($resultFilter), True);
+$resultFilter = json_decode($resultFilter);
 
-echo '<pre>';
-var_dump($resultFilter);
-echo '</pre>';
 
-include '../views/pages/home.php';
+
