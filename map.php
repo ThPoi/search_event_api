@@ -1,4 +1,26 @@
-<?php include '../views/partials/header.php' ?>
+<?php include './partials/header.php';
+$title = 'Map';
+
+$url = 'https://app.ticketmaster.com/discovery/v2/events.json?';
+$url .= http_build_query([
+    'apikey' => '3gDxxU8POu1umcTRMNSF4AGqgtUzc2md',
+    'size' => '200',
+]);
+
+// Make request to API
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
+curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+
+$result = curl_exec($curl);
+curl_close($curl);
+$result = json_decode($result);
+// Create static map URL
+
+?>
 
 <div id='map' style='width: 100%; height: 100vh; position:absolute;top:0;left:0;right:0;'></div>
 <?php 
@@ -41,12 +63,14 @@ el.style.width = 25+"px"
 el.style.height = 33+"px"
 
 el.addEventListener('click', function() {
-    
+
 });
 
 // add marker to map
 new mapboxgl.Marker(el)
 .setLngLat([marker._embedded.venues[0].location.longitude, marker._embedded.venues[0].location.latitude])
+.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+    .setHTML('<h3>' + marker.name + '</h3>'))
 .addTo(map);
 
 });
@@ -54,4 +78,4 @@ new mapboxgl.Marker(el)
 
 
 
-<?php include '../views/partials/footer.php' ?>
+<?php include './partials/footer.php' ?>

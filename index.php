@@ -1,4 +1,6 @@
-<?php include '../views/partials/header.php' ?>
+<?php 
+$title = "Home";
+include './partials/header.php' ?>
 
 <div class="main__search_container">
     <div class="main_search_background">
@@ -89,4 +91,4 @@
     </div>
 
 </div>
-<?php include '../views/partials/footer.php' ?> 
+<?php include './partials/footer.php' ?>
