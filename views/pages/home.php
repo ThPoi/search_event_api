@@ -87,6 +87,15 @@
             </div>
         </div>
     </div>
+</div>
 
+
+<div class="event_container"> 
+    <?= $resultFilter ?>
+    <?php foreach ($resultFilter as $event): ?>
+    <div class="event">
+        <p><?= $event ?></p>
+    </div>
+    <?php endforeach; ?>
 </div>
 <?php include '../views/partials/footer.php' ?> 
