@@ -7,7 +7,7 @@ header {
     .container {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-between;
         height: 80px;
         width: 100%;
         
@@ -20,25 +20,24 @@ header {
     
     
             .header_logo_img {
-                width: 32px;
+                width: 50px;
+                height:100%;
             }
         }
         .header_search:focus-within {
-            box-shadow: 0 2px 4px $shadow-grey-dark;
+            /*box-shadow: 0 2px 4px $shadow-grey-dark;*/
         
             
         }
         .header_search {
-    
-            box-shadow: 0 2px 3px $shadow-grey;
             border: 1px solid $border;
             border-radius: 3px;
-            background-color: $white;
+            background-color: #ebebeb;
             height: 48px;
             display: flex;
             justify-items: center;
             align-items: center;
-
+            border-radius: 30px;
 
             
         svg {
@@ -47,8 +46,8 @@ header {
     
         }
         input {
-            width: 88% !important;
-            background-color: $white;
+            width: 80% !important;
+            background-color: #ebebeb;
 
             ::placeholder {
                 color: $grey;
@@ -65,7 +64,7 @@ header {
             color: black;
             font-size: 15px;
             font-weight: 500;
-            margin-left: 20px;
+            margin:0% 2% 0% 2%;
             
             ul {
                 display: flex;

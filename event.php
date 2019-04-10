@@ -1,5 +1,6 @@
-<?php include '../views/partials/header.php' ?>
+<?php 
+$title = "Events";
+include './partials/header.php' ?>
 
 <?= $_GET['id'] ?>
-coucou
-<?php include '../views/partials/footer.php' ?>
+<?php include './partials/footer.php' ?>
