@@ -17,18 +17,31 @@ style: 'mapbox://styles/mapbox/streets-v11',
 center: [-65.017, -16.457],
 zoom: 5
 });
+
+function changeCursor(el, marker) {
+    if(marker.classifications[0].segment.name == 'Sports') {
+        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/pointer-red.svg)";
+    } else if(marker.classifications[0].segment.name == 'Music') {
+        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/pointer-green.svg)";
+    } else if(marker.classifications[0].segment.name == 'Arts & Theatre') {
+        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/pointer-blue.svg)";
+    } else {
+        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/pointer-yellow.svg)";
+    }
+}
  
 // add markers to map
 geojson._embedded.events.forEach(function(marker) {
 // create a DOM element for the marker
 var el = document.createElement('div');
 el.className = 'marker';
-el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/marker.svg)";
-el.style.width = 50+"px"
-el.style.height = 50+"px"
+changeCursor(el, marker)
+
+el.style.width = 25+"px"
+el.style.height = 33+"px"
 
 el.addEventListener('click', function() {
-    window.alert('test');
+    
 });
 
 // add marker to map
@@ -36,7 +49,6 @@ new mapboxgl.Marker(el)
 .setLngLat([marker._embedded.venues[0].location.longitude, marker._embedded.venues[0].location.latitude])
 .addTo(map);
 
-console.log(map)
 });
 </script>
 
