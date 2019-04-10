@@ -1,5 +1,6 @@
-<?php include './partials/header.php';
+<?php 
 $title = 'Map';
+include './partials/header.php';
 
 $url = 'https://app.ticketmaster.com/discovery/v2/events.json?';
 $url .= http_build_query([
@@ -17,12 +18,13 @@ curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
 
 $result = curl_exec($curl);
 curl_close($curl);
+
 $result = json_decode($result);
-// Create static map URL
 
 ?>
 
 <div id='map' style='width: 100%; height: 100vh; position:absolute;top:0;left:0;right:0;'></div>
+
 <?php 
 $result = json_encode($result);
 
@@ -42,13 +44,13 @@ zoom: 5
 
 function changeCursor(el, marker) {
     if(marker.classifications[0].segment.name == 'Sports') {
-        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/pointer-red.svg)";
+        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/assets/images/pointer-red.svg)";
     } else if(marker.classifications[0].segment.name == 'Music') {
-        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/pointer-green.svg)";
+        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/assets/images/pointer-green.svg)";
     } else if(marker.classifications[0].segment.name == 'Arts & Theatre') {
-        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/pointer-blue.svg)";
+        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/assets/images/pointer-blue.svg)";
     } else {
-        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/public/assets/images/pointer-yellow.svg)";
+        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/assets/images/pointer-yellow.svg)";
     }
 }
  

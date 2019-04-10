@@ -13,7 +13,7 @@
     <header>
         <div class="container">
             <div class="header_logo">
-                <img src="assets/images/logo.png" class="header_logo_img"/>
+                <img src="assets/images/logo.svg" class="header_logo_img"/>
             </div>
 
             <?php  if($title==='Map'){ ?>

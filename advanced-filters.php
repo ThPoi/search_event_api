@@ -62,11 +62,11 @@ include './partials/header.php' ?>
             <div class="search_select-hidden select-0">
                 <form action="#" method="get"> 
                     <select name="categorie">    
-                        <input type="checkbox" name="arts & theatre"/>
+                        <input type="checkbox" name="Arts & Theatre"/>
                         <label for="arts">Arts</label>
-                        <input type="checkbox" name="sports"/>
+                        <input type="checkbox" name="Sports"/>
                         <label for="arts">Sports</label>
-                        <input type="checkbox" name="music"/>
+                        <input type="checkbox" name="Music"/>
                         <label for="arts">Musique</label>
 
                     </select>
