@@ -1,7 +1,11 @@
 <?php 
 $title = "Advanced Filters";
 require('controllers/advanced-filters.php');
-include './partials/header.php' ?>
+include './partials/header.php'; 
+
+?>
+
+
 
 <div class="main__search_container">
     <div class="main_search_background">
@@ -23,7 +27,7 @@ include './partials/header.php' ?>
                 <div class="search_filter">
                     <div class="search_filter_type">
                         <div class="search_filter_emoji">🎉</div>
-                        <p class="search_filter_name">Populaires</p>
+                        <p class="search_filter_name">Pour les familles</p>
                     </div>
                     <div class="arrow_container">
                         <div class="arrow"></div>
@@ -42,15 +46,6 @@ include './partials/header.php' ?>
                     <div class="search_filter_type">
                         <div class="search_filter_emoji">📅</div>
                         <p class="search_filter_name">Date</p>
-                    </div>
-                    <div class="arrow_container">
-                        <div class="arrow"></div>
-                    </div>
-                </div>
-                <div class="search_filter">
-                    <div class="search_filter_type">
-                        <div class="search_filter_emoji">💸</div>
-                        <p class="search_filter_name">Prix</p>
                     </div>
                     <div class="arrow_container">
                         <div class="arrow"></div>
@@ -80,43 +75,34 @@ include './partials/header.php' ?>
                 <div class="submit-genre">Appliquer ce genre</div>
             </div>
             <div class="search_select-hidden select-1">
-                <form action="" method="get"> 
-                    <select name="select">    
-                        <option value="concert">Concert</option>
-                        <option value="festival">Festival</option>
-                    </select>
-                    <input class="select-submit" type="submit" value="Appliquer">
-                </form>
+                <div class="checkbox-family">
+                    <input class="checkbox-family-input" type="checkbox" name="family"/>
+                    <label for="family">Adapté aux familles </label>
+                </div>
             </div>
             <div class="search_select-hidden select-2">
-                <form action="" method="get"> 
+                <div> 
                     <div name="select" onclick="getMyPosition()">Autour de moi
                     </div>
 
-                </form>
+                </div>
             </div>
             <div class="search_select-hidden select-3">
-                <form action="" method="get"> 
+                <div> 
                     <input class="select-date" type="date"/>                    
                     <div class="submit-date">Appliquer cette date</div>
-                </form>
-            </div>
-            <div class="search_select-hidden select-4">
-                <form action="" method="get"> 
-                    <select name="select">    
-                        <option value="concert">Concert</option>
-                        <option value="festival">Festival</option>
-                    </select>
-                    <input class="select-submit" type="submit" value="Appliquer">
-                </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
+<div class="loader_container">
+    <div>
+        <img src="assets/images/loader.gif" alt="loader"/>
+    </div>
+</div>
 <div class="event_container"> 
     <?php foreach($resultFilter->_embedded->events as $event): ?>
-
     <div class="event_card">
         <div class="card_first_part">
             <img src="<?= $event->images[5]->url ?>">
@@ -141,6 +127,35 @@ include './partials/header.php' ?>
         </div>  
     </div>
     <?php endforeach; ?>
-</div>
+    </div>
+    <div class="pagination_container">
+        <?php
+    
+            $temp = preg_match("/^http:(.*)/", "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'], $lien);
+    
+            $urlClean = shapeSpace_remove_var($lien[0], 'page');
+            $pageActual;
+            if(!empty($_GET['page']))
+            {
+                $pageActual = $_GET['page'];
+                $pageActual = (int)$pageActual;
+                if($pageActual < 1)
+                {
+                    $pageActual = 1;
+                }
+    
+            }
+            else 
+            {
+                $pageActual = 1;
+            }
+            if(!empty($_GET['page'])){
+                if ($pageActual >= 1):
+                    ?><a href="<?= $urlClean .'&page='. strval($pageActual-1); ?>">Page précédente</a> | <?php
+                endif;
+            }
+            ?><a href="<?= $urlClean .'&page='. strval($pageActual+1); ?>">Page suivante</a><?php
+        ?>
+    </div>
 
 <?php include './partials/footer.php' ?>
