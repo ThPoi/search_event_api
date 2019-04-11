@@ -14,7 +14,7 @@ include './partials/header.php' ?>
                 <div class="search_filter">
                     <div class="search_filter_type">
                         <div class="search_filter_emoji">🎶</div>
-                        <p class="search_filter_name">Catégories</p>
+                        <p class="search_filter_name">Genres</p>
                     </div>
                     <div class="arrow_container">
                         <div class="arrow"></div>
@@ -60,42 +60,44 @@ include './partials/header.php' ?>
         </div>
         <div class="search_select_all">
             <div class="search_select-hidden select-0">
-                <form action="#" method="get"> 
-                    <select name="categorie">    
-                        <input type="checkbox" name="Arts & Theatre"/>
-                        <label for="arts">Arts</label>
-                        <input type="checkbox" name="Sports"/>
-                        <label for="arts">Sports</label>
-                        <input type="checkbox" name="Music"/>
-                        <label for="arts">Musique</label>
-
-                    </select>
-                    <input class="select-submit" type="submit" value="Appliquer">
-                </form>
+                <select class="select-genre">    
+                    <option value="KnvZfZ7vAvv">Alternative</option>
+                    <option value="KnvZfZ7vAvd">Blues</option>
+                    <option value="KnvZfZ7vAvF">Dance/Electronic</option>
+                    <option value="KnvZfZ7vAeJ">Classical</option>
+                    <option value="KnvZfZ7vAv6">Country</option>
+                    <option value="KnvZfZ7vAv1">Hip-Hop/Rap</option>
+                    <option value="KnvZfZ7vAJ6">Latin</option>
+                    <option value="KnvZfZ7vAvE">Jazz</option>
+                    <option value="KnvZfZ7vAe7">Religious</option>
+                    <option value="KnvZfZ7vAvt">Metal</option>                        
+                    <option value="KnvZfZ7vAvl">Other</option>
+                    <option value="KnvZfZ7vAev">Rock</option>
+                    <option value="KnvZfZ7vAee">R&B</option>
+                    <option value="KnvZfZ7vAev">Pop</option>
+                </select>
+                <div class="submit-genre">Appliquer ce genre</div>
             </div>
             <div class="search_select-hidden select-1">
-                <form action="" method="get"> 
-                    <div name="select">    
-                        <option value="concert">Concert</option>
-                        <option value="festival">Festival</option>
-                    </div>
-                    <input class="select-submit" type="submit" value="Appliquer">
-                </form>
-            </div>
-            <div class="search_select-hidden select-2">
-                <form action="" method="get"> 
-                    <div name="select" onclick="getMyPosition()">   ok 
-                    </div>
-                    <input class="select-submit" type="submit" value="Appliquer">
-                </form>
-            </div>
-            <div class="search_select-hidden select-3">
                 <form action="" method="get"> 
                     <select name="select">    
                         <option value="concert">Concert</option>
                         <option value="festival">Festival</option>
                     </select>
                     <input class="select-submit" type="submit" value="Appliquer">
+                </form>
+            </div>
+            <div class="search_select-hidden select-2">
+                <form action="" method="get"> 
+                    <div name="select" onclick="getMyPosition()">Autour de moi
+                    </div>
+
+                </form>
+            </div>
+            <div class="search_select-hidden select-3">
+                <form action="" method="get"> 
+                    <input class="select-date" type="date"/>                    
+                    <div class="submit-date">Appliquer cette date</div>
                 </form>
             </div>
             <div class="search_select-hidden select-4">
@@ -114,10 +116,27 @@ include './partials/header.php' ?>
 <div class="event_container"> 
     <?php foreach($resultFilter->_embedded->events as $event): ?>
     <div class="event_card">
-        <p><?= $event->name  ?></p>
-        <p><?= $event->id  ?></p>
-        <p><?= $event->dates->start->dateTime ?></p>
-        <img src="<?= $event->images[9]->url ?>">
+        <div class="card_first_part">
+            <img src="<?= $event->images[0]->url ?>">
+        </div>
+        <div class="card_second_part">
+            <div class="card_date">
+                <p>10:00 - 11:00 AM</p>
+                <p class="card_date_grey">Monday, August 19th 2019</p>
+            </div>
+            <div class="card_price">
+                <p class="card_price_grey">$80.00</p>
+            </div>
+        </div>
+        <div class="card_third_part">
+            <div class="card_location">
+                <p><?= $event->name  ?></p>
+                <p>Paris, France</p>
+            </div>
+            <div class="card_checkout">
+                <a href="#">Checkout</a>
+            </div>
+        </div>
     </div>
     <?php endforeach; ?>
 </div>
