@@ -117,11 +117,11 @@ include './partials/header.php' ?>
     <?php foreach($resultFilter->_embedded->events as $event): ?>
     <div class="event_card">
         <div class="card_first_part">
-            <img src="<?= $event->images[0]->url ?>">
+            <img src="<?= $event->images[5]->url ?>">
         </div>
         <div class="card_second_part">
             <div class="card_date">
-                <p>10:00 - 11:00 AM</p>
+                <p class="card_date_hours">10:00 - 11:00 AM</p>
                 <p class="card_date_grey">Monday, August 19th 2019</p>
             </div>
             <div class="card_price">
@@ -129,12 +129,12 @@ include './partials/header.php' ?>
             </div>
         </div>
         <div class="card_third_part">
-            <div class="card_location">
-                <p><?= $event->name  ?></p>
-                <p>Paris, France</p>
+            <div class="card_info">
+                <p class="card_name"><?= $event->name  ?></p>
+                <p class="card_location">Paris, France</p>
             </div>
             <div class="card_checkout">
-                <a href="#">Checkout</a>
+                <a href="#">Checkout ></a>
             </div>
         </div>
     </div>

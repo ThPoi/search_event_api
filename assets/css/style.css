@@ -565,36 +565,85 @@ header .container .header_nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: flex-start;
+  align-content: space-around;
   margin: 0 auto;
   width: 90%;
 }
 .event_container .event_card {
   border: 1px solid #EBEBEB;
-  width: 300px;
-  height: 350px;
+  width: 380px;
   text-align: center;
   font-size: 0.9rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
 }
 .event_container .event_card p {
   text-align: left;
+  line-height: 1;
+  margin-bottom: 0px;
 }
 .event_container .event_card .card_first_part img {
+  object-fit: cover;
+  height: 150px;
   width: 100%;
 }
 .event_container .event_card .card_second_part {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 5%;
   border-bottom: 1px solid #EBEBEB;
+}
+.event_container .event_card .card_second_part .card_date_hours {
+  margin-bottom: 5px;
 }
 .event_container .event_card .card_second_part .card_date_grey {
   color: grey;
+  font-size: 0.8rem;
+}
+.event_container .event_card .card_second_part .card_price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event_container .event_card .card_second_part .card_price .card_price_grey {
+  color: grey;
+  font-weight: 600;
 }
 .event_container .event_card .card_third_part {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
+  padding: 5%;
+}
+.event_container .event_card .card_third_part .card_info {
+  width: 65%;
+}
+.event_container .event_card .card_third_part .card_info .card_name {
+  color: #EB606D;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.event_container .event_card .card_third_part .card_info .card_location {
+  font-size: 0.8rem;
+  color: grey;
+  font-weight: 600;
+}
+.event_container .event_card .card_third_part .card_checkout {
+  background-color: #EB606D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  height: 100%;
+  width: 100px;
+  height: 40px;
+}
+.event_container .event_card .card_third_part .card_checkout a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 900px) {
