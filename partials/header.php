@@ -9,7 +9,7 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
     <title><?= !empty($title) ? $title : '' ?></title>
-    <link rel="stylesheet" href="http://localhost:8888/search_event_api/assets/css/style.css?=<?= rand(0,5000); ?>">
+    <link rel="stylesheet" href="http://localhost:8888//Developpement/search_event_api/assets/css/style.css?=<?= rand(0,5000); ?>">
 </head>
 <body>
     <header>

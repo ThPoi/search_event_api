@@ -151,41 +151,96 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: flex-start;
+    align-content: space-around;
     margin: 0 auto;
     width: 90%;
     
     .event_card {
         border: 1px solid $border;
-        width: 300px;
-        height: 350px;
+        width: 380px;
         text-align: center;
         font-size: 0.9rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+
         p {
             text-align: left;
+            line-height: 1;
+            margin-bottom: 0px
         }
+
         .card_first_part {
             
             img {
+                object-fit: cover;
+                height: 150px;
                 width: 100%;
             }
         }
         .card_second_part {
             display: flex;
             justify-content: space-between;
-            padding:10px;
+            padding:5%;
             border-bottom: 1px solid $border;
-
+            .card_date_hours {
+                margin-bottom: 5px;
+            }
             .card_date_grey {
                 color: grey;
+                font-size: 0.8rem;
+            }
+            .card_price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .card_price_grey {
+                    color: grey;
+                    font-weight: 600;
+                }
             }
 
         }
         .card_third_part {
             display: flex;
             justify-content: space-between;
-            padding:10px;
+            align-items: center;
+            padding:5%;
 
+            .card_info {
+                width: 65%;
+                .card_name {
+                    color:  $main-color;
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+                .card_location {
+                    font-size: 0.8rem;
+                    color: grey;
+                    font-weight: 600;
+                }
+
+            }
+            .card_checkout {
+                background-color: $main-color;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 2px;
+                height: 100%;
+                width: 100px;
+                height: 40px;
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    padding-right: 10px;
+                    padding-left: 10px;
+
+                }
+            }
+            
         }
     }
 }
