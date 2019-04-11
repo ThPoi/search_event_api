@@ -1,0 +1,851 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CqQCFQEAAMJR3eb_J-2RuTNb3UKCKVMbMHw3njKwkBA615DmNFkeITJb2p8cngjrDu0-ORKwLp6-Pe9mVR7PNsI5C7w2NXMBMMpJuwO-K48lF2n7F-KhznLK2JJXCPFvYRZqjwvfvO4_cPbogl0X5CDtJDBAPIQHk5cKAbXy6C5ReGJba3K6EaFTwFXdHxNP7WBOgVS-_8U42ljVazOECbVlnHU7GgiGc4ZPHKk_ag9o0OcFA-ombi0Z3T6rcXkreqB4SC1mLrEK33RzdbCUC6PYet0qm-P3pxELQU3m1Any3PGILxenTruHKPnYMGYJhJozdhtltgqa94LnL7PTImrRWG12-_Ho2WaRce4xs9C7oZ7kz0HIcH0G5woKVZ3Pr8IHmRPxuxIQipyyIejrO3Jk2ZH6S0i9AhoU9RAX_SbGd0txgyjABH-jY5IZNOg",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6760968,
+               "lng" : 12.5683372
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.7270937,
+                  "lng" : 12.7342654
+               },
+               "southwest" : {
+                  "lat" : 55.615441,
+                  "lng" : 12.4533824
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "4658757613cd1238ab52ce4adf3edc0196d475a8",
+         "name" : "Copenhagen",
+         "photos" : [
+            {
+               "height" : 1123,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113672182601377394169/photos\"\u003eRohidas Sanap\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5ivuN2l9UAANWhjvrZXJBKIJBbO20Lk-rKYyiftPAGCJh6gaACy7cC5LkCbqRQzcyq3Y27oNGc6lLEXsvo-4Vuj1sCKIGhGGLXSL6Yx89BxtFH672bmJ2rt1IZdlG7eIEhCQYebbHd8d-xYHBKQkp612GhSE_buB981kk-VaZjcFFhcI7NX9Iw",
+               "width" : 1680
+            }
+         ],
+         "place_id" : "ChIJIz2AXDxTUkYRuGeU5t1-3QQ",
+         "reference" : "ChIJIz2AXDxTUkYRuGeU5t1-3QQ",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Copenhagen"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6268288,
+               "lng" : 12.5770253
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.62812153029149,
+                  "lng" : 12.5788796802915
+               },
+               "southwest" : {
+                  "lat" : 55.6254235697085,
+                  "lng" : 12.5761817197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "30c09a5ef8ce7778323488c81be67c8d3f35b8b5",
+         "name" : "Crowne Plaza Copenhagen Towers",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117269015865742228955/photos\"\u003eRafeo Shah\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA_MaXQqUgPT_EcAxRXZi2d-dN_ZUJqTWf8gWEqJCKrTrIH4gev9LXg9iTfuqcyrWeQRpVVKz0D0cldAspA1yVnnFOj6Kn59I-aOMjJIClpSMu0fJHQaUnGF0S5pT_Ki5nEhC9MHHb2mHbLqC5uoXjB6pOGhRktLj9E8EgD49MUj3fvGM-eveQ3A",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJm804NLhUUkYRx4rp2lBLj_c",
+         "plus_code" : {
+            "compound_code" : "JHGG+PR Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHGG+PR"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJm804NLhUUkYRx4rp2lBLj_c",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1377,
+         "vicinity" : "Copenhagen Towers, Ørestads Boulevard 114 - 118, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6312208,
+               "lng" : 12.572734
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6326505302915,
+                  "lng" : 12.5741583802915
+               },
+               "southwest" : {
+                  "lat" : 55.6299525697085,
+                  "lng" : 12.5714604197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "5743c6bb9620bab86f439976610d343279b99c03",
+         "name" : "Cabinn Metro",
+         "photos" : [
+            {
+               "height" : 939,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117848932990937185706/photos\"\u003eCabinn Metro\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAhq_f3xq-oSgo7Ga4ZrY_9R3Ygfpfda9jOXTTECYkb6u7q7_1o0m8NWIJfHrSXx2HMRFb_z8mZa_dlIqHeArkgkC6J0U15oZMX3Zn2UlH7nFNZf5N7q4WT8dXTia7Ypd-EhCyuGN_hv4mbFrqsY9setFTGhTsRPFwa9GBeQdtcU4OTV8Q4v1hjg",
+               "width" : 1417
+            }
+         ],
+         "place_id" : "ChIJf2_lAbxUUkYRjUe0sGBuR_g",
+         "plus_code" : {
+            "compound_code" : "JHJF+F3 Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHJF+F3"
+         },
+         "rating" : 3.4,
+         "reference" : "ChIJf2_lAbxUUkYRjUe0sGBuR_g",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2531,
+         "vicinity" : "Arne Jacobsens Allé 2, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.62851799999999,
+               "lng" : 12.6046371
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.63004338029149,
+                  "lng" : 12.6059149802915
+               },
+               "southwest" : {
+                  "lat" : 55.6273454197085,
+                  "lng" : 12.6032170197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "4495bc5d55033e9228ceb062b1849f88e421866d",
+         "name" : "Copenhagen GO Hotel",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1365,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104745420554026566179/photos\"\u003eCopenhagen Go Hotel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAOxFkoQ6OWKMK4-fBKU1sWIwXg9dkT8tmNmYq_NfQ2iTnTH8oeMU53AfT9bsgcj8eqCx61VLvWP1RI2UNlDZEsD16zYCVF2yDM1ohLVHGTQHfQlocx_bpJQhP6gDvSWQ4EhCiJ_Njv6SXgWAITDAfHfOOGhQBwAxGexAKBdyLsgPxX5_YOYaxPg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJm7rqEUyrU0YRbvUlp2tfrsM",
+         "plus_code" : {
+            "compound_code" : "JJH3+CV Kastrup, Tårnby Municipality, Denmark",
+            "global_code" : "9F7JJJH3+CV"
+         },
+         "rating" : 3.1,
+         "reference" : "ChIJm7rqEUyrU0YRbvUlp2tfrsM",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 929,
+         "vicinity" : "Gemmas Alle 203, Kastrup"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.65793999999999,
+               "lng" : 12.5671962
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6593413302915,
+                  "lng" : 12.5684904802915
+               },
+               "southwest" : {
+                  "lat" : 55.6566433697085,
+                  "lng" : 12.5657925197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "a8626ef609e876f80b0a60b872556a3c051ffa44",
+         "name" : "STAY Copenhagen",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102672456360539678669/photos\"\u003eSatish G\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAABF781CT5t4mt20L5P8i8aVzTzodz0E6tRynqy_eh1dL5Rnmg_GZEilVWXEfhnQgBdofPD6wysdu1PMeFBlpuBvIaKeInsRusFE1mXBmK-1qrh8-89NSmImPnB6AD6yDIEhBqnhsYGlXvLDvxZHHIdC7RGhSXDn3eNOLD--kPC0hi1My58lCFag",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJB0rkyWVTUkYRIZH6iw8pgtY",
+         "plus_code" : {
+            "compound_code" : "MH58+5V Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JMH58+5V"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJB0rkyWVTUkYRIZH6iw8pgtY",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 309,
+         "vicinity" : "Islands Brygge 79, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6226476,
+               "lng" : 12.6157491
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6242348802915,
+                  "lng" : 12.6171018302915
+               },
+               "southwest" : {
+                  "lat" : 55.6215369197085,
+                  "lng" : 12.6144038697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "343f7d63a3e2978451e2a65949f861446bf323cc",
+         "name" : "Zleep Hotel Copenhagen Airport",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112985955815672935231/photos\"\u003eZleep Hotel Copenhagen Airport\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAUEf9ZdElcAB-rGBPdiQ9pPtUB3vmaLnb-g62HDsRoYAprIoeeMnY9lI4LisOtN4Nb-p-Cl9XtOb7GqE6Gqw-BfcswMmAbE08fJfUMjGSFyzaB1c1Dlw-BlxE0PX6mf0bEhAO5SSGQauM2k_-bQha7R7jGhQ5e4aXTCXDe0YP1dMBId6xeVAJKg",
+               "width" : 4500
+            }
+         ],
+         "place_id" : "ChIJNVulD0yrU0YRkh59VcISN_U",
+         "plus_code" : {
+            "compound_code" : "JJF8+37 Kastrup, Tårnby Municipality, Denmark",
+            "global_code" : "9F7JJJF8+37"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJNVulD0yrU0YRkh59VcISN_U",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 659,
+         "vicinity" : "Løjtegårdsvej 97A, Kastrup"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6544195,
+               "lng" : 12.5409023
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.65568238029149,
+                  "lng" : 12.5423178802915
+               },
+               "southwest" : {
+                  "lat" : 55.6529844197085,
+                  "lng" : 12.5396199197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "8b4194cd4c75b38a869d210069964bedf9d18589",
+         "name" : "Scandic Sydhavnen",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108720219371919606359/photos\"\u003eScandic\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAFGDDHM0hX2tY7q3lrZVxf6wo13x5jiajSjHDcJnud4hIruTvmbJJ8YkZ-re4ArSbIfu2V_3j9wOAmdNFlDqmsdfAY13hblXexMzPp2p2SvL_TQIVgMUiPl8loNP71BoiEhBOawYg_y9GEvza3y3rDrByGhQTWXw_yiTd6tyzPxoMCoZq0BC1QA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJE8Lo1YFTUkYRkFA6O1UGRHs",
+         "plus_code" : {
+            "compound_code" : "MG3R+Q9 Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JMG3R+Q9"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJE8Lo1YFTUkYRkFA6O1UGRHs",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bar",
+            "lodging",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1329,
+         "vicinity" : "Sydhavns Plads 15, København SV"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6425265,
+               "lng" : 12.5743358
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6438802802915,
+                  "lng" : 12.5756732802915
+               },
+               "southwest" : {
+                  "lat" : 55.6411823197085,
+                  "lng" : 12.5729753197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "46954cc0e0c3c6afcf2d21a30dccda222e1f26de",
+         "name" : "Danhostel Copenhagen Amager",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111084163311580390640/photos\"\u003eDanhostel Copenhagen Amager\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAT8FeQCjElJOydbZ-rL94JdjjAXxD_IZdAGiqZiTnyBDAuu9hQk0yhYhE7tGq4ignH7EJu65jDjEAyg8KA8iTdI-WI5LrTSFINrVJVI_7RpRP436KtuOxDLATmeVlrTZ4EhApVwrsXGJ0XcXmpv1ox-8gGhS0NiXoJjGt7zM_exzHjkBQJOG_cA",
+               "width" : 4928
+            }
+         ],
+         "place_id" : "ChIJ9_uZgKFUUkYRUAsEiMkmLeU",
+         "plus_code" : {
+            "compound_code" : "JHVF+2P Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHVF+2P"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ9_uZgKFUUkYRUAsEiMkmLeU",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 924,
+         "vicinity" : "Vejlands Allé 200, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6395089,
+               "lng" : 12.5782728
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.64085788029149,
+                  "lng" : 12.5796217802915
+               },
+               "southwest" : {
+                  "lat" : 55.63815991970849,
+                  "lng" : 12.5769238197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "9222d16d9c59dfaacd1aeb31da1726dc845004fc",
+         "name" : "AC Hotel by Marriott Bella Sky Copenhagen",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4128,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105175455266976586790/photos\"\u003eChan Weirong\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA9kfck50PwTSO6YT7kzftdRHFnFskul3rWyPQQrn2obua20WiMACOJw69DhhKi3phpcIrvkeXqWo2Xw5tMvHMVZChj6YRnb3o0j_DcgsfzXAlqWWEz9JK0WNfFeu_TylBEhCrgyiGd7F_I3XwLzVkhOyrGhRzelLwV_R1SyXtRZUL9am8ogfVUA",
+               "width" : 3096
+            }
+         ],
+         "place_id" : "ChIJL7-6n6RUUkYRDxbJZ4o59NU",
+         "plus_code" : {
+            "compound_code" : "JHQH+R8 Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHQH+R8"
+         },
+         "price_level" : 2,
+         "rating" : 4.3,
+         "reference" : "ChIJL7-6n6RUUkYRDxbJZ4o59NU",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3172,
+         "vicinity" : "Center Boulevard 5, København"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6311092,
+               "lng" : 12.5818884
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6324581802915,
+                  "lng" : 12.5832373802915
+               },
+               "southwest" : {
+                  "lat" : 55.6297602197085,
+                  "lng" : 12.5805394197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "f0715f08c696e70844c66818989afe4e6d596da6",
+         "name" : "Jokokan Ørestad Karate Skole",
+         "place_id" : "ChIJeT8apLBUUkYREeyaF10N7C4",
+         "plus_code" : {
+            "compound_code" : "JHJJ+CQ Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHJJ+CQ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJeT8apLBUUkYREeyaF10N7C4",
+         "scope" : "GOOGLE",
+         "types" : [ "health", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "København"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.604226,
+               "lng" : 12.591955
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.60589128029149,
+                  "lng" : 12.5931283802915
+               },
+               "southwest" : {
+                  "lat" : 55.6031933197085,
+                  "lng" : 12.5904304197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a290a38c094b88b83eea693849f4f30c96e5054d",
+         "name" : "Vestamager Idrætsanlæg",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115413078587010899981/photos\"\u003eFrank Grimstad\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAKs7lN_jophf2G6n2jU4itvu96ja23-hfLVFLBw6YajSD213I3QpP137JNwxiMANfv1XbX4_h5ui_YWSpQbHKi_2s7zHXDdSOG1yvAfmuvzxYsoNZ3_dHsbckwxIrf8SOEhDV915nlxPI5ZMeKe8c6JQpGhTfibhzfZXuzozlx9LlaU9LRvIhJw",
+               "width" : 4640
+            }
+         ],
+         "place_id" : "ChIJ6dPYyCurU0YRxyjeg_dul4c",
+         "plus_code" : {
+            "compound_code" : "JH3R+MQ Kastrup, Tårnby Municipality, Denmark",
+            "global_code" : "9F7JJH3R+MQ"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ6dPYyCurU0YRxyjeg_dul4c",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 19,
+         "vicinity" : "Ugandavej 87-105, Kastrup"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6306648,
+               "lng" : 12.5776342
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6322606302915,
+                  "lng" : 12.5803234
+               },
+               "southwest" : {
+                  "lat" : 55.6295626697085,
+                  "lng" : 12.5767378
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "894d3ec97e239d1c1ff15d24f92ee059d6ce7977",
+         "name" : "Bilka One Stop, Field’s",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113874302526634426422/photos\"\u003eDevin Tai\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAzMdb5KGyYI7d9N-3iDeSQetWJyL40X3YqFZQUHNugMujWLDlxj9Fdj3ln5QP203-7R_esQyWPK7EcLgFBwPwGXXbCcBk9d7I_bJHHGxYMoRByamxXir59NaI-cjQqBEqEhDJvSBtWppBL3FmlK_G3OBzGhS6_BmeT8O3hvP1ORHSyvgDOEM5EQ",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJRfgpGLpUUkYRPyDEe460bPc",
+         "plus_code" : {
+            "compound_code" : "JHJH+73 Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHJH+73"
+         },
+         "rating" : 4,
+         "reference" : "ChIJRfgpGLpUUkYRPyDEe460bPc",
+         "scope" : "GOOGLE",
+         "types" : [
+            "supermarket",
+            "grocery_or_supermarket",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 1551,
+         "vicinity" : "Field's, Arne Jacobsens Allé 24, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.657715,
+               "lng" : 12.599116
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.65911593029149,
+                  "lng" : 12.6005304302915
+               },
+               "southwest" : {
+                  "lat" : 55.65641796970849,
+                  "lng" : 12.5978324697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1f653258e7e9a6d7184b17df5ce332e0f7acccc9",
+         "name" : "Røgerigården",
+         "place_id" : "ChIJy1IFN05TUkYRAKZ4sz6MUDI",
+         "plus_code" : {
+            "compound_code" : "MH5X+3J Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JMH5X+3J"
+         },
+         "reference" : "ChIJy1IFN05TUkYRAKZ4sz6MUDI",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "Mjøsensgade 1, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6405176,
+               "lng" : 12.6098896
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6419227302915,
+                  "lng" : 12.6112178302915
+               },
+               "southwest" : {
+                  "lat" : 55.63922476970851,
+                  "lng" : 12.6085198697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "3dd35cb4818c563b3bf6e1ee7fc5deb31360c2c9",
+         "name" : "Villa Copenhagen",
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103697477885364629840/photos\"\u003eIt&#39;s Me\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAw2KNfq6yRQ565yYuaOCDc3Zkgn3vTnbTvuTCVqxK74rik6pnOv2l6hpW2lopctKzq5zkmtrwuP3vtqOL9GlMJ8-wcow3lfNZ8d05jamKSs6iRqXBVo_g8G5nmNyCoTLtEhBffFgn8SbotYumlUU4XJT2GhSxXduvA2zx8AYa2So48xzOwTpHrA",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJSSm5OlSrU0YRQVSFSEmSDhk",
+         "plus_code" : {
+            "compound_code" : "JJR5+6X Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJJR5+6X"
+         },
+         "rating" : 3.2,
+         "reference" : "ChIJSSm5OlSrU0YRQVSFSEmSDhk",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 17,
+         "vicinity" : "Gyldenrisvej 29, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.64259999999999,
+               "lng" : 12.619272
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.64393258029149,
+                  "lng" : 12.6205311302915
+               },
+               "southwest" : {
+                  "lat" : 55.64123461970849,
+                  "lng" : 12.6178331697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "2dc9d45208746e9ceae389338736170f82da7656",
+         "name" : "Jansvej Homestay",
+         "photos" : [
+            {
+               "height" : 960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100571341858891716366/photos\"\u003eEstrela da Noite Zé Dias\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAfUyiiUTWhS6hZgUClG-A5_OrEFtc_41zNpky1eOUEoi3PDYv814_2LodGZOOq2ofci-DwEfH0Hb-XmUMyN7dXlIOWtXsiDI0G7y92X6x2vxwdnYZoH8OdxmaPcUWEhkBEhDxMKs_CURbgfmCRUlI7d1lGhS5teIrmKZPlD15pnB6oRV5dsRGVQ",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJPcoh5VerU0YRYr84HSzlj5w",
+         "plus_code" : {
+            "compound_code" : "JJV9+2P Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJJV9+2P"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJPcoh5VerU0YRYr84HSzlj5w",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "Jansvej 39, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.6375044,
+               "lng" : 12.5785932
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6392776302915,
+                  "lng" : 12.5797887
+               },
+               "southwest" : {
+                  "lat" : 55.6365796697085,
+                  "lng" : 12.5763455
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "38bd7d5f7c2ff2ceb1e164daae311106abd599bb",
+         "name" : "Bella Center",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111663348587207439831/photos\"\u003eliv thorsen\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAVVcpHrgXvRr1iYqwKmVaRCwzyxj-afxs2fUuevR6fvUpXbOL4p41zsPeRGZhiAjAwxJiSh5ZZyvF849LKMuIZzhtPInV_ykbEckUV8IE1fKrHKCEdAA7XC-uSr1zq6pVEhDbZn2awqK3V1tJoGkUPK-SGhQ2Y7k8uSTkbKW5CXJm2PFgSTNlag",
+               "width" : 2560
+            }
+         ],
+         "place_id" : "ChIJPZwmY6NUUkYRmLgvyQ8w22E",
+         "plus_code" : {
+            "compound_code" : "JHQH+2C Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHQH+2C"
+         },
+         "rating" : 4,
+         "reference" : "ChIJPZwmY6NUUkYRmLgvyQ8w22E",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2384,
+         "vicinity" : "Center Boulevard 5, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.62849999999999,
+               "lng" : 12.5789501
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6298519302915,
+                  "lng" : 12.5802739302915
+               },
+               "southwest" : {
+                  "lat" : 55.6271539697085,
+                  "lng" : 12.5775759697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b9631036329d4522844332114d243e279f92d2dc",
+         "name" : "Ørestad Station | DSB",
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101907192567982898780/photos\"\u003eDaniele Donegà\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAACxUz_61eJ-929PjcahRxNkxSryMTlZwaVakV-l6MSfFJzl-GQoRdoX8bCxzsYMKCLpz-hJkQiigZRnMzC0S16I7hkyFqYcSaM1cHOKBvDh1x3dtsQURhvdOV1cGKPo2kEhDOf6ZFCylGK6T0D5MiRL6LGhSLiDyxaNSnTwgGXNkOdyfaaCARQQ",
+               "width" : 2268
+            }
+         ],
+         "place_id" : "ChIJ71HeWEyrU0YRo4TBTPkzVdQ",
+         "plus_code" : {
+            "compound_code" : "JHHH+CH Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHHH+CH"
+         },
+         "rating" : 3.6,
+         "reference" : "ChIJ71HeWEyrU0YRo4TBTPkzVdQ",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "user_ratings_total" : 5,
+         "vicinity" : "København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.63033739999999,
+               "lng" : 12.5775178
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6322821,
+                  "lng" : 12.5809749
+               },
+               "southwest" : {
+                  "lat" : 55.62869250000001,
+                  "lng" : 12.5738213
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "a9587f5da150472162c64fcaa051f5ea3fb20ed2",
+         "name" : "Tøjeksperten Field's",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114707338119754428111/photos\"\u003eIb Vang\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA6dwn82537RRtgLM4AVFGCxrRJMOF6iUrQnwSQ3zLwUUXG_QeoFJOlGuaJnTtQmBIuMkwAW_wB-GCK9Cxge4GhafLgRSxTUNMDYkdSP1w5zQNJfFht59MTDWTipBUr7LNEhBSh_K5WGAQxrwQ5NftA-IqGhQdz_Yl_5IStv8UeUWam3px9eqy0g",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJBe3AerlUUkYRO7jHqDH9M2E",
+         "plus_code" : {
+            "compound_code" : "JHJH+42 Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJHJH+42"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJBe3AerlUUkYRO7jHqDH9M2E",
+         "scope" : "GOOGLE",
+         "types" : [ "clothing_store", "store", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 64,
+         "vicinity" : "Arne Jacobsens Allé 12, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.649511,
+               "lng" : 12.609939
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.6508597802915,
+                  "lng" : 12.6111915802915
+               },
+               "southwest" : {
+                  "lat" : 55.6481618197085,
+                  "lng" : 12.6084936197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "6de5a9ffb312f94d22debe639ed7c1a1d95a1f69",
+         "name" : "Valmuevej Apartment",
+         "place_id" : "ChIJ0xoUY6usU0YRDiI8I_vSlyc",
+         "plus_code" : {
+            "compound_code" : "JJX5+RX Copenhagen, Copenhagen Municipality, Denmark",
+            "global_code" : "9F7JJJX5+RX"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ0xoUY6usU0YRDiI8I_vSlyc",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Valmuevej 3, København S"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 55.677069,
+               "lng" : 12.513321
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.69801099999999,
+                  "lng" : 12.5577998
+               },
+               "southwest" : {
+                  "lat" : 55.666376,
+                  "lng" : 12.4917669
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "92d8c83c29cbbc62af029595154c473122e473c3",
+         "name" : "Frederiksberg",
+         "photos" : [
+            {
+               "height" : 712,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117205205393488733056/photos\"\u003eJonathan Cohen\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAW-UAQ-uSY66-zzO9rBk3NgRm7T4SVTmLO7vtkDhsBPqJ_-CqhCgqYZGGH6tBnZhGll2bS2BZ0spcKjohahylwOqsj23STqNItc0wRq-BLhdUn00Nh4pWbonJ2ZD0OHq2EhBZ5OdGdHXD6GlinD_ziyo5GhQAH03RxY7qLJHJmVWrN_h08pE7sg",
+               "width" : 949
+            }
+         ],
+         "place_id" : "ChIJ7UnGKblTUkYRgn6BT-jcH70",
+         "reference" : "ChIJ7UnGKblTUkYRgn6BT-jcH70",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Frederiksberg"
+      }
+   ],
+   "status" : "OK"
+}

@@ -271,7 +271,7 @@ h3 {
 }
 
 .container {
-  width: 1000px;
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -358,12 +358,27 @@ p {
   text-transform: uppercase;
   font-weight: 800;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 19px;
   color: #ff6b7c;
 }
 
 .img-responsive {
   width: 100%;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box.auto {
+  flex: inherit;
+  width: 30%;
 }
 
 header {
