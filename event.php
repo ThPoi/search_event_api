@@ -1,20 +1,17 @@
 <?php 
-$title = "Events";
+$title = "Festifun - Evènement";
 include './partials/header.php';
-
-require('controllers/event.php');
-
-if(empty($_GET['id'])) {
-    header('Location: ../index');
-}
 
 foreach ($result->_embedded->events as $event) {
     if($event->id == $_GET['id']) {
+
         $url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?';
         $url .= http_build_query([
             'key' => 'AIzaSyB5pRajp7ueuLle1uM4SDLGSLfaKrinVTY',
             'location' => $event->_embedded->venues[0]->location->latitude.",".$event->_embedded->venues[0]->location->longitude,
             'radius' => 10000,
+            'type' => 'lodging',
+            'rankid' => 'prominence'
         ]);
 
         // Create cache info
@@ -83,8 +80,8 @@ foreach ($result->_embedded->events as $event) {
                     <?php if(isset($event->priceRanges[0]->min)) { ?>
                     <div class="box">
                         <div class="title-box">Price ranges</div>
-                        Min: <?= $event->priceRanges[0]->min ?>
-                        Max: <?= $event->priceRanges[0]->max ?>
+                         <div class="price"><?= $event->priceRanges[0]->min ?> - 
+                         <?= $event->priceRanges[0]->max ?></div>
                     </div>
                     <?php } ?>
                     <?php if(isset($event->_embedded->venues[0]->images[0]->url)) { ?>
@@ -126,27 +123,37 @@ foreach ($result->_embedded->events as $event) {
                         </div>
                 <?php } ?>
             </div>
+            <div class="container flex">
+                <div class="big-title">Lodging</div>
+            </div>
             <div class="container">
-            <div class="flex wrap">
+                <div class="flex wrap">
 
-            <?php foreach($place->results as $oneplace) { ?>
-                        <div class="box auto">
-                            <div class="title-box"><?= $oneplace->name ?></div>
-                        </div>
-            <?php } ?>
-            </div>
-            </div>
                 <?php 
-                    echo '<pre>';
-                    print_r($event);
-                    echo '</pre>';
-                ?>
+                    $i = 0;
+                    foreach($place->results as $oneplace) { 
+                    if(isset($oneplace->photos[0]->photo_reference) && $i <= 5) { 
+                        $i++;
+                    ?>        
+                            <div class="box auto">
+                                <div class="title-box"><?= $oneplace->name ?></div>
+                                <img src="https://maps.googleapis.com/maps/api/place/photo?key=AIzaSyB5pRajp7ueuLle1uM4SDLGSLfaKrinVTY&photoreference=<?= $oneplace->photos[0]->photo_reference ?>&maxwidth=500" class="img-place"/>
+                                <div class="adress-place"><?= $oneplace->vicinity ?></div>
+                                <div class="flex space-between">
+                                    <?php if(isset($oneplace->icon)) { ?> <div class="rating-place"><img src="<?= $oneplace->icon ?>" class="icon-name"/></div><?php } ?>
+                                    <?php if(isset($oneplace->rating)) { ?> <div class="rating-place-top"><?= $oneplace->rating  ?> / 5</div><?php } ?>
+                                </div>
+                                <?php if(isset($oneplace->user_ratings_total)) { ?> <div class="rating-place-gray">Total of reviews : <?= $oneplace->user_ratings_total ?></div><?php } ?>
+                                
+                            </div>
+                    <?php } ?>
+                <?php } ?>
+                </div>
+            </div>
             </div>
         <?php
     } 
 }
-
-//echo $result->images[5]->url;
 ?>
 
 

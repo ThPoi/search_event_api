@@ -1,6 +1,6 @@
 <?php
 
-
+define('BASE_URL', 'http://localhost:8888/search_event_api/');
 
 $url = 'https://app.ticketmaster.com/discovery/v2/events.json?';
 $url .= http_build_query([
@@ -15,7 +15,7 @@ $cachePath = './cache/'.$cacheKey;
 $cacheUsed = false;
 
 // Cache available
-if(file_exists($cachePath) && time() - filemtime($cachePath) < 60)
+if(file_exists($cachePath) && time() - filemtime($cachePath) < 50)
 {
     $result = file_get_contents($cachePath);
     $cacheUsed = true;

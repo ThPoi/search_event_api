@@ -69,12 +69,28 @@ header {
             ul {
                 display: flex;
                 justify-content: space-between;
-                li {
-                    
-
-                    a {
-                        text-decoration: none;
+                    li.active {
+                        background:$main-color;
+                        color:#fff;   
+                        a {
+                            font-family: "Singulier Demi"; 
+                        }
                     }
+                    li {
+                        padding:12px 15px;
+                        margin:0px 5px 0;
+                        border-radius:25px;
+                        transition:.4s ease-in-out;
+                        &:hover {
+                            background:$main-color;
+                            color:#fff;   
+                        }
+                        a {
+                            text-decoration: none;
+                            padding:15px 15px;
+                            font-size:16px;
+                            font-family:"Singulier Regular";
+                        }
                 }
             }
         }

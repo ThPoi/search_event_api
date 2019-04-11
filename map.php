@@ -50,11 +50,9 @@ let popButton = document.querySelector('.blue')
 
 rockButton.addEventListener('click', () => {
     let allRockMarker = [... document.querySelectorAll('.rock')]
-    console.log(allRockMarker)
     for(let rock of allRockMarker) {
         rock.classList.toggle('hidden')
     }
-    console.log('ok')
 })
 
 hipButton.addEventListener('click', () => {
@@ -62,7 +60,6 @@ hipButton.addEventListener('click', () => {
     for(let hip of allHipHopMarker) {
         hip.classList.toggle('hidden')
     }
-    console.log('ok')
 })
 
 otherButton.addEventListener('click', () => {
@@ -70,7 +67,6 @@ otherButton.addEventListener('click', () => {
     for(let rock of allOtherMarker) {
         rock.classList.toggle('hidden')
     }
-    console.log('ok')
 })
 
 popButton.addEventListener('click', () => {
@@ -78,12 +74,10 @@ popButton.addEventListener('click', () => {
     for(let pop of allPopMarker) {
         pop.classList.toggle('hidden')
     }
-    console.log('ok')
 })
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2VyaWFucCIsImEiOiJjanIzb3RjYjQwZHBiNDlxb244bmhmMWttIn0.OOdv7-Uvd5NnModocJk0Bw';
 var geojson = <?php echo $result; ?>;
-console.log(geojson)
  
 var map = new mapboxgl.Map({
 container: 'map',
@@ -140,7 +134,7 @@ el.addEventListener('click', function() {
 new mapboxgl.Marker(el)
 .setLngLat([marker._embedded.venues[0].location.longitude, marker._embedded.venues[0].location.latitude])
 .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML(`<h3> ${marker.name} </h3> <a href='./event/${marker.id}'>En savoir plus</a>${marker.priceRanges != undefined ? marker.priceRanges[0].min : ''}-${marker.priceRanges != undefined ? marker.priceRanges[0].max : ''}`))
+    .setHTML(`<h3> ${marker.name} </h3> <a href='./event?id=${marker.id}'>En savoir plus</a>${marker.priceRanges != undefined ? marker.priceRanges[0].min : ''}-${marker.priceRanges != undefined ? marker.priceRanges[0].max : ''}`))
 .addTo(map);
 
 });
