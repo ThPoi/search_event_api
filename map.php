@@ -3,7 +3,7 @@ $title = 'Map';
 include './partials/header.php';
 ?>
 
-<div id='map' class="map"></div>
+<div id="map" class="map"></div>
 <div class="content-right">
     <div class="content-category">
         <div>
@@ -33,14 +33,8 @@ include './partials/header.php';
     </div>
     </div>
 </div>
-<?php 
-$result = json_encode($result);
-
-?>
-
 <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.0.0/mapbox-gl-geocoder.min.js'></script>
 <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.0.0/mapbox-gl-geocoder.css' type='text/css' />
-<div id='map'></div>
 <script>
 
 let rockButton = document.querySelector('.green')
@@ -76,8 +70,34 @@ popButton.addEventListener('click', () => {
     }
 })
 
+let url = './cache/447b43082983808e916259d8c3c1c214'
+
+let geojson = null
+
+fetch(url)
+  .then((resp) => resp.json()) // Transform the data into json
+  .then(function(data) {
+    geojson = data
+    geojson._embedded.events.forEach(function(marker) {
+        
+        // create a DOM element for the marker
+        var el = document.createElement('div');
+        el.className = 'marker';
+        changeCursor(el, marker)
+        console.log(marker.classifications[0].genre.name)
+        el.style.width = 25+"px"
+        el.style.height = 33+"px"
+
+        // add marker to map
+        new mapboxgl.Marker(el)
+            .setLngLat([marker._embedded.venues[0].location.longitude, marker._embedded.venues[0].location.latitude])
+            .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+                .setHTML(`<div class="title-box"> ${marker.name} </div> <div class="card_checkout mt-2"><a href='./event?id=${marker.id}'>En savoir plus</a></div>`))
+            .addTo(map);
+    });
+})
+
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2VyaWFucCIsImEiOiJjanIzb3RjYjQwZHBiNDlxb244bmhmMWttIn0.OOdv7-Uvd5NnModocJk0Bw';
-var geojson = <?php echo $result; ?>;
  
 var map = new mapboxgl.Map({
 container: 'map',
@@ -89,16 +109,16 @@ zoom: 5
 function changeCursor(el, marker) {
     if(marker.classifications[0].genre.name == 'Hip-Hop/Rap') {
         el.setAttribute('class', 'hip-hop');
-        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/assets/images/pointer-red.svg)";
+        el.style.backgroundImage = "url(./assets/images/pointer-red.svg)";
     } else if(marker.classifications[0].genre.name == 'Rock') {
         el.setAttribute('class', 'rock');
-        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/assets/images/pointer-green.svg)";
+        el.style.backgroundImage = "url(./assets/images/pointer-green.svg)";
     } else if(marker.classifications[0].genre.name == 'Pop') {
         el.setAttribute('class', 'pop');
-        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/assets/images/pointer-blue.svg)";
+        el.style.backgroundImage = "url(./assets/images/pointer-blue.svg)";
     } else {
         el.setAttribute('class', 'other');
-        el.style.backgroundImage = "url(http://localhost:8888/search_event_api/assets/images/pointer-yellow.svg)";
+        el.style.backgroundImage = "url(./assets/images/pointer-yellow.svg)";
     }
 }
 
@@ -115,29 +135,6 @@ map.addControl(new MapboxGeocoder({
     mapboxgl: mapboxgl
 }));
 
-
-// add markers to map
-geojson._embedded.events.forEach(function(marker) {
-// create a DOM element for the marker
-var el = document.createElement('div');
-el.className = 'marker';
-changeCursor(el, marker)
-console.log(marker.classifications[0].genre.name)
-el.style.width = 25+"px"
-el.style.height = 33+"px"
-
-el.addEventListener('click', function() {
-
-});
-
-// add marker to map
-new mapboxgl.Marker(el)
-.setLngLat([marker._embedded.venues[0].location.longitude, marker._embedded.venues[0].location.latitude])
-.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML(`<h3> ${marker.name} </h3> <a href='./event?id=${marker.id}'>En savoir plus</a>${marker.priceRanges != undefined ? marker.priceRanges[0].min : ''}-${marker.priceRanges != undefined ? marker.priceRanges[0].max : ''}`))
-.addTo(map);
-
-});
 
 </script>
 

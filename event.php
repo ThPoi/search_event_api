@@ -80,8 +80,9 @@ foreach ($result->_embedded->events as $event) {
                     <?php if(isset($event->priceRanges[0]->min)) { ?>
                     <div class="box">
                         <div class="title-box">Price ranges</div>
-                         <div class="price"><?= $event->priceRanges[0]->min ?> - 
-                         <?= $event->priceRanges[0]->max ?></div>
+                         <div class="price"><?= $event->priceRanges[0]->min ?> <?= $event->priceRanges[0]->currency ?> - 
+                         <?= $event->priceRanges[0]->max ?> <?= $event->priceRanges[0]->currency ?></div>
+                         <div class="card_checkout full mt-2"><a href="<?= $event->url ?>">Checkout</a></div>
                     </div>
                     <?php } ?>
                     <?php if(isset($event->_embedded->venues[0]->images[0]->url)) { ?>
@@ -89,7 +90,7 @@ foreach ($result->_embedded->events as $event) {
                             <div class="title-box">Place</div>
                             <img src="<?= $event->_embedded->venues[0]->images[0]->url ?>" class="img-responsive"/>
                         </div>
-                        <?php } ?>
+                    <?php } ?>
                 </div>
             </div>
             <?php if(isset($event->seatmap->staticUrl)) { ?>

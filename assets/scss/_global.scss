@@ -48,6 +48,7 @@ body {
     font-family: 'Singulier Regular';
 }
 
+
 .main {
     width: 100vw;
     height: 100vh;
@@ -80,6 +81,15 @@ body {
     font-size: 1.4em;
     font-weight: 800;
     text-align: center;
+}
+
+.mt-2 {
+    margin-top:20px;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .content-name-event, .content-place-event, .content-date-event, .content-genre-event {
@@ -313,4 +323,13 @@ p {
     margin-bottom: 15px;
     font-family: "Singulier Demi";
     color: #494949cc;
+}
+.full {
+    width:100%;
+}
+
+.full a {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Trebuchet MS;
 }

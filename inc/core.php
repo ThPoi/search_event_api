@@ -1,10 +1,12 @@
 <?php
 
 define('BASE_URL', 'http://localhost:8888/search_event_api/');
+define('API_TICKETMASTER', '3gDxxU8POu1umcTRMNSF4AGqgtUzc2md');
+define('API_GOOGLE', 'AIzaSyB5pRajp7ueuLle1uM4SDLGSLfaKrinVTY');
 
 $url = 'https://app.ticketmaster.com/discovery/v2/events.json?';
 $url .= http_build_query([
-    'apikey' => '3gDxxU8POu1umcTRMNSF4AGqgtUzc2md',
+    'apikey' => API_TICKETMASTER,
     'size' => '200',
     'segmentName' => 'Musics',
 ]);
