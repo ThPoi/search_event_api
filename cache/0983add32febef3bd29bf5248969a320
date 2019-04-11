@@ -1,0 +1,881 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CqQCFQEAAJEQ0x3MN1zlPNsfTqc2-dbtijnJA41h3LG5HV7SJhNSOS3KXqgM8C-pyGTdRMbTqj9LjB7R3FmxVMVb8QqRO8YAnGuGMonnxh9LeY7gavKcaBp3Mi2YQsWBvjo13Qa9NNQ_kgPX4Cxn5WiZE7LfvAhwQlBUcj9e_srJQVCehdH1-VE2PDmi-QB82GTl3dFn8DLdYoYrifjbeC85n2N1LP0WZdGC31plDEieLiPzEKK5lKeeHfqf4YMy0nRV-Km3q8l1BiA81ZA4tJOOZojswloWGGny4I3uiAkspMf7r40k3z1duvLUYOhFLYoHCc2QDWIxKxRHJ7ToncMobt509LBEJ8Q0qpL6jEnXFdi9QtIanrjWOVLcbqFim9qVPPcejRIQYB_ndmp5YPRAkEBNPdoa7RoUBCrZLXqtzH5rsr4r76PNxgnEbYk",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3768866,
+               "lng" : 8.541694
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.43468,
+                  "lng" : 8.6253701
+               },
+               "southwest" : {
+                  "lat" : 47.32023,
+                  "lng" : 8.448059899999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "495bc1dbea86bbe3e6390498a56f8d5eb81ac5c6",
+         "name" : "Zürich",
+         "photos" : [
+            {
+               "height" : 453,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104466005256044944108/photos\"\u003eAlby Set\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAAh1Ndpf5NIwDoctzh0SoRhdwR98Msm0XsSkN_MS4Lt6dmtOG0YymivZn8TYRexOr4NpIq631j9r7KZRv-P4RAK46cfcnml156MNEhttdQ-98w0w4vU4v2Qff19T8fKK8EhAT7dazMMyezQjqw4GwNxx_GhRp7sQ_rDWT6yZZNBpYEQnxnspZYg",
+               "width" : 680
+            }
+         ],
+         "place_id" : "ChIJGaK-SZcLkEcRA9wf5_GNbuY",
+         "reference" : "ChIJGaK-SZcLkEcRA9wf5_GNbuY",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.40852179999999,
+               "lng" : 8.546465
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.40990548029149,
+                  "lng" : 8.5478462802915
+               },
+               "southwest" : {
+                  "lat" : 47.40720751970849,
+                  "lng" : 8.545148319708495
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "b9ca18506e7e09474f65a2f98d19962dffbd884f",
+         "name" : "Hotel Sternen Oerlikon",
+         "photos" : [
+            {
+               "height" : 521,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108147231061269808571/photos\"\u003eHotel Sternen Oerlikon\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAATUZxwC-M4vvuZ2S1gmcK37cqx6rb2TZXy49lddw7yqRoQ_-MKKAAqkfCSt1sKDsiDAtFZzqXYz4upSSp9-gIt75Zfq08uoOLb3WHhgxEwvV2_K7ROEVPmkST-HBhSsBREhAdRKSK0tJreXu5tjQG_tbwGhSnWWOBttvWskwCj6sfNxh_opoIWA",
+               "width" : 999
+            }
+         ],
+         "place_id" : "ChIJ33wx0YYKkEcRvd9uOXZqA3k",
+         "plus_code" : {
+            "compound_code" : "CG5W+CH Zürich, Switzerland",
+            "global_code" : "8FVCCG5W+CH"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ33wx0YYKkEcRvd9uOXZqA3k",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 203,
+         "vicinity" : "Schaffhauserstrasse 335, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.4107365,
+               "lng" : 8.543699999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.41205688029149,
+                  "lng" : 8.544945780291501
+               },
+               "southwest" : {
+                  "lat" : 47.4093589197085,
+                  "lng" : 8.542247819708496
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "3ac8a24a5ec28fc4c3be974d7feba3d1eb4b00cc",
+         "name" : "Swissôtel Zürich",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100456246379225165865/photos\"\u003eParitosh Narayan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAqObs6F9xD_K4oE_QmJctGT0zFYnX1iEuj2gFqNPhdDDiOPJ8LTqvY1xRNAcpu1pjP3G7thuesDrIv3-bbdJVi6XQ0I5LeWUBfwMpqlvDW--z751W9GCBex3SiAmjguH8EhCJrt12KX80ml2GlpTM8iNVGhTKg3W-zyLKYDS9Qm6ajpEkjirjlg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ60-4d4YKkEcRKmmiTj7bG1g",
+         "plus_code" : {
+            "compound_code" : "CG6V+7F Zürich, Switzerland",
+            "global_code" : "8FVCCG6V+7F"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ60-4d4YKkEcRKmmiTj7bG1g",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1408,
+         "vicinity" : "Schulstrasse 44, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.4143085,
+               "lng" : 8.5410842
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.4156050302915,
+                  "lng" : 8.542432080291503
+               },
+               "southwest" : {
+                  "lat" : 47.4129070697085,
+                  "lng" : 8.539734119708498
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "c13d6751b7d8fd5e73fc2123eb497d581e5ca952",
+         "name" : "Courtyard by Marriott Zurich North",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 423,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107298075376996382268/photos\"\u003eCourtyard by Marriott Zurich North\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAACXIZOiB1AsnceGdM_NoVIumzs6gHvB5dwY9rqdQ5-LQ16Dz9wPdXEOrZOwA0hJroQqpkR3p75aPaYOQA2H2P19bcKIvdf6KLVQwv_hpYSqP9owELtcM0hz1F8yudbsSqEhBbZ_hLou29NGVpfKZWOcwuGhSEi4mPdyW0YVjlgZkczvm3-TLW4Q",
+               "width" : 610
+            }
+         ],
+         "place_id" : "ChIJvwk4lo8KkEcR4pweoM7AA-k",
+         "plus_code" : {
+            "compound_code" : "CG7R+PC Zürich, Switzerland",
+            "global_code" : "8FVCCG7R+PC"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJvwk4lo8KkEcR4pweoM7AA-k",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 518,
+         "vicinity" : "Max-Bill-Platz 19, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3973605,
+               "lng" : 8.5409617
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.3986787802915,
+                  "lng" : 8.542407380291502
+               },
+               "southwest" : {
+                  "lat" : 47.39598081970851,
+                  "lng" : 8.539709419708498
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "40cde294b8a27e4d457c03de17c657100aaae132",
+         "name" : "Hotel Coronado",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 860,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116606048877776379584/photos\"\u003eHotel Coronado\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAaiQ4BZjwBaNBzxYqFiPvFtNwF7Xh7Z62PqlRn4XyLgiVd0iEGdp0ioai1KZcBIkCHY_EJxbKFiDNlJ7ZrzTJIh_sQsR6jdEs4kNJtJMYZNseFuvJXEkAXHj5opf1Jq6FEhCpwHaQpPbdDw5N9AtHMZ-5GhRJEn165NkteWXU__FLcEBGFcsRNg",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJH6AYZ3oKkEcRkSOjbWCAkqw",
+         "plus_code" : {
+            "compound_code" : "9GWR+W9 Zürich, Switzerland",
+            "global_code" : "8FVC9GWR+W9"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJH6AYZ3oKkEcRkSOjbWCAkqw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 165,
+         "vicinity" : "Schaffhauserstrasse 137, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.38811,
+               "lng" : 8.539163000000002
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.38947418029149,
+                  "lng" : 8.540572880291503
+               },
+               "southwest" : {
+                  "lat" : 47.38677621970849,
+                  "lng" : 8.5378749197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "6cf35c7e1072a7598aeb91f672dbe79fdfd3a4b9",
+         "name" : "Hotel Krone Unterstrass Zürich",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101856424624249324488/photos\"\u003eJung Hyun Park,\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAdXUg2L2XppF1RKMCNNbEPdiZwHdNJyV5zvFlY4AtOd2qTGIoJzXCOlM0XewLf1CG3rfy7RY5K52n3w_gY1JnpJUIoMmDvVMz6c9x1OPVhL80rjzDjVS0gipZvljiZNitEhAG6uN3YTK1G2tAFQrwRXpXGhRUR6prnhhdXrrUuXdPl5siQ0S2zA",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ-RppE3MKkEcRG0YzQFAvt1s",
+         "plus_code" : {
+            "compound_code" : "9GQQ+6M Zürich, Switzerland",
+            "global_code" : "8FVC9GQQ+6M"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ-RppE3MKkEcRG0YzQFAvt1s",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 294,
+         "vicinity" : "Schaffhauserstrasse 1, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.4395246,
+               "lng" : 8.5688482
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.4407674802915,
+                  "lng" : 8.569973780291502
+               },
+               "southwest" : {
+                  "lat" : 47.4380695197085,
+                  "lng" : 8.567275819708497
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "ba5d4ba7832a00eb8318529e217c8eff7d9a3586",
+         "name" : "Mövenpick Hotel Zürich Airport",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104886938172604146156/photos\"\u003eAmson Andrews\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAhlNSid3LYYHDah9mbPrEZx-RGTz62fGOi3NS4QSzIs5g6jdnJAHlJg3-ynK1ZrsFencbYutvHgBpfJee-utiL_4FBOkEmo_V3IxNMvtPtFb-X6n0AnqLYJMzXSOv0EbOEhB9qUu0poL76VxUgD-FdP2MGhSIvL8i2hDOsETu5L8k6Tl50baJIQ",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJoTlS4QOgmkcRj0q4nw-o47k",
+         "plus_code" : {
+            "compound_code" : "CHQ9+RG Opfikon, Switzerland",
+            "global_code" : "8FVCCHQ9+RG"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJoTlS4QOgmkcRj0q4nw-o47k",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 1909,
+         "vicinity" : "Walter Mittelholzerstrasse 8, Opfikon"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.384123,
+               "lng" : 8.532568999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.3854354302915,
+                  "lng" : 8.533860880291501
+               },
+               "southwest" : {
+                  "lat" : 47.3827374697085,
+                  "lng" : 8.531162919708496
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "358cf303ddae83ebc783c2f6ccd4939262a0f0fe",
+         "name" : "X-tra Hotel",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102218607026655943522/photos\"\u003eX-TRA Hotel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAKiwVBCw3Ql2yS5fk8gYSsl1abb2aebOnpxB7YoW-GUX6JV3r9OEWd3WngOhE5H44TMDeT5Ej4-abPomiJQ2h5-YE9egPkzZVZmb-emdu5oES1saKdhdYmPkpqOCjdK4IEhAEoM7BsqS-OeU_iwE19HSfGhSSR3l6BH3NOM-uWCcg5LYYDBy2Dg",
+               "width" : 1500
+            }
+         ],
+         "place_id" : "ChIJzcJUZBIKkEcRn71E8q8MqR0",
+         "plus_code" : {
+            "compound_code" : "9GMM+J2 Zürich, Switzerland",
+            "global_code" : "8FVC9GMM+J2"
+         },
+         "rating" : 3.5,
+         "reference" : "ChIJzcJUZBIKkEcRn71E8q8MqR0",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 356,
+         "vicinity" : "Limmatstrasse 118, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.380889,
+               "lng" : 8.535264999999997
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.38225308029149,
+                  "lng" : 8.536632430291501
+               },
+               "southwest" : {
+                  "lat" : 47.3795551197085,
+                  "lng" : 8.533934469708496
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "0faa0178f252dde9e7c8ad345fd3a427c896be6b",
+         "name" : "Hotel Montana Zürich",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104244215343804430416/photos\"\u003eChing yu ho\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAHbFTtJkO5XWDViZSg-BM9PWiIrKnS3qjsKQPAq7ZUNiebgbvF20LAna0Q8foSUOMHZmd38xTTn1SvuC2S0WWQEeR4vibrnGfZTJpitNRGxhMxGIQttE8oODVl8aUEIWFEhCyoKFwhNJfXHO8AP482zDhGhRP6ZORjZBGxSapnccgJuKmWfbj2Q",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJRwVCYQ4KkEcRUWKBBcKIKs0",
+         "plus_code" : {
+            "compound_code" : "9GJP+94 Zürich, Switzerland",
+            "global_code" : "8FVC9GJP+94"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJRwVCYQ4KkEcRUWKBBcKIKs0",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 411,
+         "vicinity" : "Konradstrasse 39, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.38024719999999,
+               "lng" : 8.537228199999998
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.38162568029149,
+                  "lng" : 8.538536430291503
+               },
+               "southwest" : {
+                  "lat" : 47.37892771970849,
+                  "lng" : 8.535838469708498
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "4cd5d515aeaf6142ce36e190c113af1f83e7b6d8",
+         "name" : "Walhalla Hotel",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111828306040313535315/photos\"\u003eHyatt Pan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAVYDdCaB9kVydi3kISUjDq21nqFYPsEnOoBPTh88N1YT7v5CldrVvqhdT3hKoMHZJCZA4IQ_UwPrO_YiIYSfTzFQPC_vTiFFieg1NvC8EcAe-vq3SycKoJzLnnHKMiGdFEhDPDO2MZvjs7h9XffdPphAGGhQlcodaMiSZmMXTZJgKM4njhiex5A",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ79BFwQ4KkEcRKnYvMlelySg",
+         "plus_code" : {
+            "compound_code" : "9GJP+3V Zürich, Switzerland",
+            "global_code" : "8FVC9GJP+3V"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ79BFwQ4KkEcRKnYvMlelySg",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 373,
+         "vicinity" : "Limmatstrasse 5, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3881468,
+               "lng" : 8.513978599999998
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.3896412302915,
+                  "lng" : 8.5154682302915
+               },
+               "southwest" : {
+                  "lat" : 47.3869432697085,
+                  "lng" : 8.512770269708495
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "5d688f9b432328ed747462d23a2774ed9fb0bd80",
+         "name" : "Renaissance Zurich Tower Hotel",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111993035995149150368/photos\"\u003eRenaissance Zurich Tower Hotel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAmXCR8fw9BgzA-v_Rwc0ZN37q3piucc4lRN2InZJa-5TkU_Tm1u43DHRTXyVFur5OVotJ4iJQlyLmno8W4pQMSLGULf-6BYCvoe51X8YmXXMonoPLIiWF50XdBnVt7IGEEhCeWta_FWPrZi8dHoyYYfwyGhRDhXvjap7oXra2wzt9DHieJRjSZQ",
+               "width" : 6720
+            }
+         ],
+         "place_id" : "ChIJhSn9pDgKkEcR72PClUKjnJM",
+         "plus_code" : {
+            "compound_code" : "9GQ7+7H Zürich, Switzerland",
+            "global_code" : "8FVC9GQ7+7H"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJhSn9pDgKkEcR72PClUKjnJM",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 722,
+         "vicinity" : "Turbinenstrasse 20, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.37708319999999,
+               "lng" : 8.543692099999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.37837453029149,
+                  "lng" : 8.545054030291503
+               },
+               "southwest" : {
+                  "lat" : 47.37567656970849,
+                  "lng" : 8.542356069708498
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "06fb8792eb213aaff9151e28e1c2143e2a4dd3c4",
+         "name" : "Central Plaza",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1371,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100253546720529076539/photos\"\u003eCentral Plaza Hotel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAshFNDCAcw64CSpdxm0tyLzzNPvtyzN6ZY1vBxdPQ2EI7lvKG-9diRp08g1NZQocQilEO33pK3KQzimotGYnpAZpTOcpr6u1L5dbwgmsTnodIkIzMqPeWSwo0JOsZK4M1EhBaJPg-DqzJC-GXPpOCosDoGhS5DlOYf96ABDYodyDKbJGUI-NVgA",
+               "width" : 1372
+            }
+         ],
+         "place_id" : "ChIJfbuY96egmkcRHsT88ca1g_s",
+         "plus_code" : {
+            "compound_code" : "9GGV+RF Zürich, Switzerland",
+            "global_code" : "8FVC9GGV+RF"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJfbuY96egmkcRHsT88ca1g_s",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bar",
+            "lodging",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 427,
+         "vicinity" : "Central 1, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3762635,
+               "lng" : 8.544676600000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.3776340302915,
+                  "lng" : 8.546095630291504
+               },
+               "southwest" : {
+                  "lat" : 47.3749360697085,
+                  "lng" : 8.543397669708499
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "0bd14536d8638bcd910a9731b7ccf2f159d44c13",
+         "name" : "Hotel du Théâtre by Fassbind",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3744,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103003818322739882218/photos\"\u003eHotel du Théâtre by Fassbind\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAOLSB14YG-IMbC8VsiD8BUXUrEB6G-uTRN2vP8UyhkGmSdaIh6w6JWDX0czdUVyx2Vg90rPxM2ABBhT02_tbVHZigWTqCutudSYm0GNbW9sC4Q1ug2cEudM_YznxURxPfEhDm6dCqwfWCSXczwmdBK-oOGhRxpHIEcYCwluirIh8q3yChDj7GYw",
+               "width" : 5616
+            }
+         ],
+         "place_id" : "ChIJ26m-CqigmkcRYdskoNEOVeo",
+         "plus_code" : {
+            "compound_code" : "9GGV+GV Zürich, Switzerland",
+            "global_code" : "8FVC9GGV+GV"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJ26m-CqigmkcRYdskoNEOVeo",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 200,
+         "vicinity" : "Seilergraben 69, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3761584,
+               "lng" : 8.544399100000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.3775109802915,
+                  "lng" : 8.545819080291503
+               },
+               "southwest" : {
+                  "lat" : 47.3748130197085,
+                  "lng" : 8.543121119708498
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "b68f34b0654029fcfca25989725e75a6258dcd7d",
+         "name" : "Sorell Hotel Rütli",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1348,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117488237382274092695/photos\"\u003eSorell Hotel Rütli\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5Ir0ccfyvSgv3ucILZDRRVkrV0Di5CZM2dbLoUJKFUf2V8y4Ta4YXTDTBHCnA-J5Mxnr5zTry3CIn1-G58bsG_sbifFrZBbxAC2UvEd585w8tqNwfkzHgkQ4dhBAicziEhDE4PwGYxvlrgj8wVQbEXdtGhRZ1MpNuUgTLjZr79S2m7iYU73jcg",
+               "width" : 899
+            }
+         ],
+         "place_id" : "ChIJzQc0CqigmkcRj3wk0dMEQH0",
+         "plus_code" : {
+            "compound_code" : "9GGV+FQ Zürich, Switzerland",
+            "global_code" : "8FVC9GGV+FQ"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJzQc0CqigmkcRj3wk0dMEQH0",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 190,
+         "vicinity" : "Zähringerstrasse 43, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3744372,
+               "lng" : 8.544879999999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.37573588029149,
+                  "lng" : 8.546268080291503
+               },
+               "southwest" : {
+                  "lat" : 47.37303791970849,
+                  "lng" : 8.543570119708498
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "f10b86bafeb6e9037846728bc12911f955a5d297",
+         "name" : "Hotel Scheuble",
+         "photos" : [
+            {
+               "height" : 1600,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117578289261471807697/photos\"\u003eHotel Scheuble\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5k4JNxf1qNn7ExfhtrxOM5O-n6K3kqShEgbtld-sPushcY4wro5CTXnRNc5PeUO5LHuT-vpHWhIlCSkSS4gwijflxGc263Cus35XChQe3Dsdx9-t66nnX5YE3Jc90J1WEhCqEtLNgFwqbTDEVnlMcMb9GhQYKZaOHS1pPcBibp4GqkcprKSbQw",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJTwygRaigmkcRTRIWwnPNqAI",
+         "plus_code" : {
+            "compound_code" : "9GFV+QX Zürich, Switzerland",
+            "global_code" : "8FVC9GFV+QX"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJTwygRaigmkcRTRIWwnPNqAI",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "restaurant", "point_of_interest", "food", "establishment" ],
+         "user_ratings_total" : 238,
+         "vicinity" : "Mühlegasse 17, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3736468,
+               "lng" : 8.553119900000002
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.3750482802915,
+                  "lng" : 8.554591280291504
+               },
+               "southwest" : {
+                  "lat" : 47.3723503197085,
+                  "lng" : 8.551893319708499
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d2cb9aaa2cae4bbf71e938629efa1ffdaef854c0",
+         "name" : "Plattenhof",
+         "photos" : [
+            {
+               "height" : 573,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109937920546271921062/photos\"\u003ePlattenhof Design Hotel\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAfo7JVzFcZiRj2OZWEF3qxGUUbvPN06TKhO6qGyztMboGHmrj-Lv20C2hKBS9-45iN9eLTw9e3VfNyLj5VhflkFPkic79zAbLmtOPz6NWRpfCdt4Wvwg6Ezd5RV0W0LtOEhDaa1LCv0GJRDHr15CpvgCZGhTASCFz3Nn1N73CBWz2hvjJDacJBA",
+               "width" : 709
+            }
+         ],
+         "place_id" : "ChIJ9_QPuK-gmkcRh7gn2svG5nQ",
+         "plus_code" : {
+            "compound_code" : "9HF3+F6 Zürich, Switzerland",
+            "global_code" : "8FVC9HF3+F6"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ9_QPuK-gmkcRh7gn2svG5nQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 140,
+         "vicinity" : "Plattenstrasse 26, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3770458,
+               "lng" : 8.527552499999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.3783456802915,
+                  "lng" : 8.5289127302915
+               },
+               "southwest" : {
+                  "lat" : 47.3756477197085,
+                  "lng" : 8.526214769708496
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "3b30fb48c955cc652435d8299fc65fbf6055f5a7",
+         "name" : "Hotel Regina",
+         "photos" : [
+            {
+               "height" : 4128,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104394504700418868484/photos\"\u003eGianluca Acca\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAACRICg8zLAr6zdKTUy-VNO5jdL8LroFyjYhbjeWlJ1FkNspsquqHXWB8wSortNW7L1AhatBqHhzbA1yytfDL3jRfA06IpAS8d9221B80F0SKkZ5TLqDVyGtid_aaBJJ7DEhCooqlJ14zM7ILDLUl2rLlHGhRdczSjQ2FvlwDtmnBhqxFf9OGhbA",
+               "width" : 2322
+            }
+         ],
+         "place_id" : "ChIJ4732cBoKkEcRqCR_Rr5Rntw",
+         "plus_code" : {
+            "compound_code" : "9GGH+R2 Zürich, Switzerland",
+            "global_code" : "8FVC9GGH+R2"
+         },
+         "rating" : 3.2,
+         "reference" : "ChIJ4732cBoKkEcRqCR_Rr5Rntw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 12,
+         "vicinity" : "Hohlstrasse 18, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3733725,
+               "lng" : 8.5437151
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.3747214302915,
+                  "lng" : 8.545067130291503
+               },
+               "southwest" : {
+                  "lat" : 47.3720234697085,
+                  "lng" : 8.542369169708499
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "46dc3f3a423801b3a9990fd3619a78d8100dd3dc",
+         "name" : "Hotel Hirschen & Weinschenke",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1539,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104464906381195286403/photos\"\u003eHotel Hirschen &amp; Weinschenke\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAg2Xkc0kZtParEuoICywUXQifiBULiCzLZXPdymHR4gIIqzNyp627QXHLdZRcBFBtaAa31u8G_LrLIhtUVI4ii6ji8GEvepZxyFByf7IqzvaNX7Yedy08oEnVXsk6GyJIEhDWm4TO7ed6-o9WYxt365SDGhTuvNQU2ann_KhWABGX4PdojhANgw",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJW1XJzqmgmkcRx-_afBnwnJY",
+         "plus_code" : {
+            "compound_code" : "9GFV+8F Zürich, Switzerland",
+            "global_code" : "8FVC9GFV+8F"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJW1XJzqmgmkcRx-_afBnwnJY",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 131,
+         "vicinity" : "Niederdorfstrasse 13, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3731351,
+               "lng" : 8.5435038
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.37451678029149,
+                  "lng" : 8.544847680291502
+               },
+               "southwest" : {
+                  "lat" : 47.3718188197085,
+                  "lng" : 8.542149719708497
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "7c648b0f9d1b90f9a7c902d8e9564a967d3c49e6",
+         "name" : "Adler",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 978,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114879861790508384396/photos\"\u003eAdler\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAI4EsYqKqE9t4hrNzlk6oSh6vwZoEQXzfFP1iMenD-UB-kaolYb-3MRLLEMrpEZlX-_z5uTRMZei9isL9A93A2QdS2C05jbi6PNvquojDquERhgOsKbc_M4jOw434CfEKEhBdHrVN9KDjKBam7aXoNL3CGhQwoEaiO7qgbSTDaSyg3ivQtq91xg",
+               "width" : 1417
+            }
+         ],
+         "place_id" : "ChIJTfaDxqmgmkcRo9IkTuCc6bA",
+         "plus_code" : {
+            "compound_code" : "9GFV+7C Zürich, Switzerland",
+            "global_code" : "8FVC9GFV+7C"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJTfaDxqmgmkcRo9IkTuCc6bA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 302,
+         "vicinity" : "Rosengasse 10, Zürich"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 47.3882368,
+               "lng" : 8.483050799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.4037641,
+                  "lng" : 8.5060269
+               },
+               "southwest" : {
+                  "lat" : 47.3740901,
+                  "lng" : 8.450343
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "44cde2da3715967abf3c8e9688402ec27de8432a",
+         "name" : "Altstetten",
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103854561804830898450/photos\"\u003eJorge Andrade\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAPGpQQ8eoVEkseGpLh1YpQ0RkdpldMn5d47xpfSAfE-kV64lMirIGvwJUz6P5o21rMUT-wh6_0aLoqqtMrjjAXupkJZTfYopy4s-vac3GGcT3vNihfj1T9W-UPOqGfoiZEhBGHhBF6zzO54SB-BFZkOnVGhQFuyMqzLZ-e0pRXcNgF_DAMT6mBw",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJHdJw5MALkEcR4BDV4V5BzR8",
+         "reference" : "ChIJHdJw5MALkEcR4BDV4V5BzR8",
+         "scope" : "GOOGLE",
+         "types" : [ "sublocality_level_2", "sublocality", "political" ],
+         "vicinity" : "Altstetten"
+      }
+   ],
+   "status" : "OK"
+}
