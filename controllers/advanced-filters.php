@@ -30,14 +30,14 @@ $title = 'Recherche';
 $urlFilter = 'https://app.ticketmaster.com/discovery/v2/events.json?';
 $urlFilter .= http_build_query([
     'apikey' => '3gDxxU8POu1umcTRMNSF4AGqgtUzc2md',
-    'size' => '50',
-    'segmentName' => 'Music',
+    'size' => '2',
     'latlong' => !empty($positionValue) ? $positionValue : '',
     'countryCode'=> !empty($countryCode) ? $countryCode : '',
     'genreId' => !empty($genreValue) ? $genreValue : '',
     'localStartDateTime' => !empty($localeDateValue) ? $localeDateValue : '',
 
 ]);
+
 
 // Make request to API
 $curlFilter = curl_init();

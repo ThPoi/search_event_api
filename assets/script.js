@@ -7,6 +7,7 @@ const checkboxInput = document.querySelectorAll('.checkbox_choices input')
 
 const submitGenre = document.querySelector('.submit-genre')
 const selectSubmitGenre = document.querySelector('.select-genre')
+const selectSubmitGenreOption = document.querySelectorAll('.select-genre option')
 
 const submitDate = document.querySelector('.submit-date')
 const selectSubmitDate = document.querySelector('.select-date')
@@ -36,6 +37,20 @@ let searchParams = new URLSearchParams(query_string)
 
 let newUrl = ''
 
+if(searchParams.has('genre'))
+{
+  searchParams.get('genre')
+  selectSubmitGenreOption.forEach(function(_elementOption, index)
+  {
+    console.log(_elementOption)
+    console.log(searchParams.get('genre'))
+
+    if(_elementOption == searchParams.get('genre'))
+    {
+      console.log('ok')
+    }
+  })
+}
 
 submitGenre.addEventListener('click', function()
 {
@@ -44,7 +59,12 @@ submitGenre.addEventListener('click', function()
   searchParams.append('genre', valueSelectGenre)
   paramsString.search = searchParams.toString()
   newUrl += paramsString.toString()
+  selectSubmitGenreOption[selectSubmitGenre.selectedIndex].setAttribute('selected', 'selected')
   window.location.href = newUrl
+  console.log(selectSubmitGenreOption[1])
+
+
+
 })
 
 submitDate.addEventListener('click', function()

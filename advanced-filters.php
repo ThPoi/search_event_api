@@ -60,7 +60,8 @@ include './partials/header.php' ?>
         </div>
         <div class="search_select_all">
             <div class="search_select-hidden select-0">
-                <select class="select-genre">    
+                <select class="select-genre">  
+                    <option value="all">Tous</option>  
                     <option value="KnvZfZ7vAvv">Alternative</option>
                     <option value="KnvZfZ7vAvd">Blues</option>
                     <option value="KnvZfZ7vAvF">Dance/Electronic</option>
@@ -115,28 +116,29 @@ include './partials/header.php' ?>
 
 <div class="event_container"> 
     <?php foreach($resultFilter->_embedded->events as $event): ?>
+
     <div class="event_card">
         <div class="card_first_part">
             <img src="<?= $event->images[5]->url ?>">
         </div>
         <div class="card_second_part">
             <div class="card_date">
-                <p class="card_date_hours">10:00 - 11:00 AM</p>
-                <p class="card_date_grey">Monday, August 19th 2019</p>
+                <p class="card_date_hours"><?= !empty($event->dates->start->localDate) ? date("d M Y", strtotime($event->dates->start->localDate)) : '' ?></p>
+                <p class="card_date_grey"><?= !empty($event->dates->start->localTime) ? date("H:i", strtotime($event->dates->start->localTime)) : '' ?></p>
             </div>
             <div class="card_price">
-                <p class="card_price_grey">$80.00</p>
+                <p class="card_price_grey"><?= !empty($event->priceRanges[0]->currency) && !empty($event->priceRanges[0]->min) && !empty($event->priceRanges[0]->max) ? $event->priceRanges[0]->currency .' '. $event->priceRanges[0]->min .'-'. $event->priceRanges[0]->max : ''?></p>
             </div>
         </div>
         <div class="card_third_part">
             <div class="card_info">
-                <p class="card_name"><?= $event->name  ?></p>
-                <p class="card_location">Paris, France</p>
+                <p class="card_name"><?= $event->name ?></p>
+                <p class="card_location"><?= $event->_embedded->venues[0]->city->name .','. $event->_embedded->venues[0]->country->name?></p>
             </div>
             <div class="card_checkout">
-                <a href="#">Checkout ></a>
+                <a href=<?= 'event/'.$event->id ?>>Détails ></a>
             </div>
-        </div>
+        </div>  
     </div>
     <?php endforeach; ?>
 </div>
