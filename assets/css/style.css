@@ -561,12 +561,18 @@ header .container .header_nav ul li a {
   border-right: 0px solid #EB606D;
 }
 
+.display_filters .filter {
+  background: #EB606D;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 3px;
+}
+
 .event_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-around;
-  margin: 0 auto;
+  margin: auto;
   width: 90%;
 }
 .event_container .event_card {
@@ -574,8 +580,8 @@ header .container .header_nav ul li a {
   width: 380px;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 2px;
 }
 .event_container .event_card p {
@@ -594,10 +600,8 @@ header .container .header_nav ul li a {
   padding: 5%;
   border-bottom: 1px solid #EBEBEB;
 }
-.event_container .event_card .card_second_part .card_date_hours {
-  margin-bottom: 5px;
-}
 .event_container .event_card .card_second_part .card_date_grey {
+  margin-bottom: 5px;
   color: grey;
   font-size: 0.8rem;
 }
@@ -622,6 +626,7 @@ header .container .header_nav ul li a {
 .event_container .event_card .card_third_part .card_info .card_name {
   color: #EB606D;
   font-weight: 600;
+  font-size: 1.2rem;
   margin-bottom: 5px;
 }
 .event_container .event_card .card_third_part .card_info .card_location {
@@ -646,6 +651,11 @@ header .container .header_nav ul li a {
   padding-left: 10px;
 }
 
+@media screen and (max-width: 1200px) {
+  .event_container {
+    justify-content: space-around;
+  }
+}
 @media screen and (max-width: 900px) {
   .arrow_container {
     display: none;

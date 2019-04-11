@@ -145,14 +145,21 @@
     }
 }
 
- 
+.display_filters {
+
+    .filter {
+        background: $main-color;
+        color: $white;
+        padding: 15px;
+        border-radius: 3px;
+    }
+}
 .event_container {
     
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-around;
-    margin: 0 auto;
+    margin: auto;
     width: 90%;
     
     .event_card {
@@ -160,8 +167,8 @@
         width: 380px;
         text-align: center;
         font-size: 0.9rem;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         border-radius: 2px;
 
         p {
@@ -183,10 +190,9 @@
             justify-content: space-between;
             padding:5%;
             border-bottom: 1px solid $border;
-            .card_date_hours {
-                margin-bottom: 5px;
-            }
+
             .card_date_grey {
+                margin-bottom: 5px;
                 color: grey;
                 font-size: 0.8rem;
             }
@@ -213,6 +219,7 @@
                 .card_name {
                     color:  $main-color;
                     font-weight: 600;
+                    font-size: 1.2rem;
                     margin-bottom: 5px;
                 }
                 .card_location {
@@ -244,6 +251,14 @@
         }
     }
 }
+@media screen and (max-width: 1200px) {
+
+    .event_container {
+        justify-content: space-around;
+
+    }    
+}
+
 
 @media screen and (max-width: 900px) {
 
