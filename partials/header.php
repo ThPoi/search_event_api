@@ -1,19 +1,23 @@
+<?php require './inc/core.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,600,700,800|PT+Sans:400,700" rel="stylesheet">
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
     <title><?= !empty($title) ? $title : '' ?></title>
-    <link rel="stylesheet" href="./assets/css/style.css?=<?= rand(0,5000); ?>">
+    <link rel="stylesheet" href="http://localhost:8888/search_event_api/assets/css/style.css?=<?= rand(0,5000); ?>">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="header_logo">
-                <img src="assets/images/logo.svg" class="header_logo_img"/>
+                <a href="http://localhost:8888/search_event_api/map">
+                    <img src="http://localhost:8888/search_event_api/assets/images/logo.svg" class="header_logo_img"/>
+                </a>
             </div>
 
             <?php  if($title==='Map'){ ?>
@@ -26,9 +30,9 @@
                 <ul>
                     <li>
                         <?php if($title==='Map'){ ?>
-                        <a href="<?= URL.'home' ?>">Retour</a>
+                        <a href="<?= 'home' ?>">Retour</a>
                         <?php } else {?>
-                        <a href="<?= URL.'map'?>">Map</a>
+                        <a href="<?= 'map'?>">Map</a>
                         <?php } ?>
                     </li>
                 </ul>
