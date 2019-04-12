@@ -80,15 +80,12 @@ submitGenre.addEventListener('click', function()
 submitCountry.addEventListener('click', function()
 {
   loaderChange()
-  console.log('pute')
   const valueSelectCountry = searchFilterCountry[searchFilterCountry.selectedIndex].value
   searchParams.delete('country')
   searchParams.append('country', valueSelectCountry)
-  console.log(searchParams)
   searchFilterCountryOption[searchFilterCountry.selectedIndex].setAttribute('selected', 'selected')
   paramsString.search = searchParams.toString()
   newUrl += paramsString.toString()
-  console.log(newUrl)
   window.location.href = newUrl
 
 })
@@ -148,12 +145,9 @@ if(!(searchParams.has('latitude') || searchParams.has('longitude') || searchPara
 function getMyPosition() {
     loaderChange()
 
-    console.log("Appel à getCurrentPosition()");
     
     window.navigator.geolocation.getCurrentPosition(function(position) {
       
-      console.log("Position trouvée : Latitude="+position.coords.latitude+" Longitude="+position.coords.longitude);
-      console.log(position.coords);
       searchParams.delete('latitude')
       searchParams.delete('longitude')
 
@@ -164,8 +158,6 @@ function getMyPosition() {
       window.location.href = newUrl
 
     }, function(error) {
-      console.log("Erreur de géoloc N°"+error.code+" : "+error.message);
-      console.log(error);
       loaderChange()
 
 

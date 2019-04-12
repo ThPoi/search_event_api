@@ -714,6 +714,20 @@ header .container .header_nav ul li a {
   border-right: 0px solid #EB606D;
 }
 
+.submit-genre, .submit-country, .submit-date {
+  padding: 10px;
+  background: #EB606D;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search_filter_country {
+  width: 145px;
+}
+
 .display_filters .filter {
   background: #EB606D;
   color: #ffffff;
