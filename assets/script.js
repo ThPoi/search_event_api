@@ -1,7 +1,3 @@
-const mainSearchContainer = document.querySelector('.main_search_background')
-const searchFilterAll = document.querySelectorAll('.search_filter')
-const selectSearchAll = document.querySelectorAll('.search_select-hidden')
-
 const submitGenre = document.querySelector('.submit-genre')
 const selectSubmitGenre = document.querySelector('.select-genre')
 const selectSubmitGenreOption = document.querySelectorAll('.select-genre option')
@@ -19,7 +15,7 @@ const searchInput = document.querySelector('.main_search_event input')
 
 const submitCountry= document.querySelector('.submit-country')
 const searchFilterCountry = document.querySelector('.search_filter_country')
-const searchFilterCountryOption = document.querySelector('.search_filter_country option')
+const searchFilterCountryOption = document.querySelectorAll('.search_filter_country option')
 
 
 const loaderChange = () =>
@@ -29,22 +25,6 @@ const loaderChange = () =>
 
 }
 
-searchFilterAll.forEach(function(_searchFilter, index)   
-{
-
-    _searchFilter.addEventListener('click', () => {
-
-        selectSearchAll.forEach(function(_selectSearch) 
-        {
-            if(_selectSearch.classList.contains('search_select-block'))
-            {
-                _selectSearch.classList.toggle('search_select-block')
-            }
-        })
-        const searchSelect = document.querySelector(`.select-${index}`)
-        searchSelect.classList.toggle('search_select-block')    
-
-})})
 
 let paramsString = new URL(window.location.href)
 
@@ -67,7 +47,7 @@ if(searchParams.has('genre'))
 }
 if(searchParams.has('country'))
 {  
-  selectFilterCountryOption.forEach(function(_elementOption, index)
+  searchFilterCountryOption.forEach(function(_elementOption, index)
   {
     if(_elementOption.value == searchParams.get('country'))
     {
@@ -100,9 +80,11 @@ submitGenre.addEventListener('click', function()
 submitCountry.addEventListener('click', function()
 {
   loaderChange()
+  console.log('pute')
   const valueSelectCountry = searchFilterCountry[searchFilterCountry.selectedIndex].value
   searchParams.delete('country')
   searchParams.append('country', valueSelectCountry)
+  console.log(searchParams)
   searchFilterCountryOption[searchFilterCountry.selectedIndex].setAttribute('selected', 'selected')
   paramsString.search = searchParams.toString()
   newUrl += paramsString.toString()

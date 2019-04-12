@@ -5,14 +5,12 @@ include './partials/header.php';
 
 ?>
 
-
-
 <div class="main__search_container">
     <div class="main_search_background">
         <div class="main_search">
             <div class="main_search_event">
                 <svg viewBox="0 0 16 16" role="presentation" aria-hidden="true" focusable="false" style="height: 32; width: 32; display: block; fill: currentcolor;"><path d="m2.5 7c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5-2 4.5-4.5 4.5-4.5-2-4.5-4.5m13.1 6.9-2.8-2.9c.7-1.1 1.2-2.5 1.2-4 0-3.9-3.1-7-7-7s-7 3.1-7 7 3.1 7 7 7c1.5 0 2.9-.5 4-1.2l2.9 2.8c.2.3.5.4.9.4.3 0 .6-.1.8-.4.5-.5.5-1.2 0-1.7"></path></svg>
-                <input placeholder="Rechercher des festivals" />
+                <input placeholder="Rechercher un style de musique, un festival.." />
             </div>
             <div class="search_filter_container">
                 <div class="search_filter">
@@ -63,18 +61,15 @@ include './partials/header.php';
                             </clipPath>
                             </defs>
                         </svg>
-<<<<<<< HEAD
                         <p class="search_filter_name filter">Pour les familles</p>
                         </div>
                         <input class="checkbox-family-input" type="checkbox" name="family"/>
                         <label for="family">Adapté aux familles </label>
-=======
                         <p class="search_filter_name">Pour les familles</p>
                         <div class="checkbox-family">
                             <input class="checkbox-family-input" type="checkbox" name="family"/>
                             <label for="family">Adapté aux familles </label>
                         </div>      
->>>>>>> f481e127758b0e5373821467c2844c1b3ddbbdac
                     </div>
                 </div>
                 <div class="search_filter">
@@ -84,12 +79,10 @@ include './partials/header.php';
                             <path d="M54.0758 11.3015C49.1136 4.11976 41.2492 0 32.5008 0C23.7523 0 15.8879 4.11976 10.9257 11.3015C5.98787 18.4469 4.8477 27.4932 7.86969 35.4856C8.67801 37.6681 9.9629 39.7886 11.6796 41.7757L30.7705 64.1999C31.2023 64.7075 31.8349 65 32.5008 65C33.1666 65 33.7992 64.7076 34.231 64.1999L53.3166 41.7818C55.0409 39.7833 56.3241 37.6651 57.1257 35.5C60.1538 27.4932 59.0136 18.4469 54.0758 11.3015ZM52.8697 33.9083C52.2516 35.5787 51.2425 37.2303 49.872 38.8188C49.8682 38.8226 49.8644 38.8265 49.8613 38.831L32.5008 59.222L15.1295 38.8182C13.7598 37.231 12.7507 35.5796 12.1264 33.8932C9.62723 27.2834 10.5757 19.8038 14.6644 13.8864C18.7658 7.95006 25.2674 4.54543 32.5008 4.54543C39.734 4.54543 46.2348 7.94993 50.3364 13.8864C54.4258 19.8038 55.375 27.2834 52.8697 33.9083Z" fill="black"/>
                             <path d="M32.5008 13.4848C25.4833 13.4848 19.7735 19.1939 19.7735 26.2121C19.7735 33.2304 25.4825 38.9394 32.5008 38.9394C39.519 38.9394 45.2281 33.2304 45.2281 26.2121C45.2281 19.1947 39.5182 13.4848 32.5008 13.4848ZM32.5008 34.3939C27.9894 34.3939 24.3189 30.7234 24.3189 26.212C24.3189 21.7006 27.9894 18.0301 32.5008 18.0301C37.0122 18.0301 40.6826 21.7006 40.6826 26.212C40.6826 30.7234 37.0122 34.3939 32.5008 34.3939Z" fill="black"/>
                         </svg>
-<<<<<<< HEAD
                         <p class="search_filter_name filter">Localisation</p>
                         </div>
                         <div name="select" onclick="getMyPosition()">Autour de moi
                         </div>
-=======
                         <p class="search_filter_name">Localisation</p>
                         <div name="select" onclick="getMyPosition()">Autour de moi</div>
                         <select class="search_filter_country">
@@ -343,10 +336,7 @@ include './partials/header.php';
                             <option value="ZM">Zambia</option>
                             <option value="ZW">Zimbabwe</option>
                         </select>
-                        <div class="submit-country">Appliquer ce genre</div>
-
->>>>>>> f481e127758b0e5373821467c2844c1b3ddbbdac
-                    </div>
+                        <div class="submit-country">Appliquer ce genre</div>                    </div>
                 </div>
                 <div class="search_filter">
                     <div class="search_filter_type">
@@ -389,6 +379,7 @@ include './partials/header.php';
     <?php 
     if(empty($resultFilter->_embedded))
     {
+        $error = true;
         echo 'Aucun résultat, veuillez changez votre recherche';
     }
     else
@@ -441,13 +432,14 @@ include './partials/header.php';
             {
                 $pageActual = 1;
             }
+            if(!($error)) {
             if(!empty($_GET['page'])){
                 if ($pageActual >= 1):
                     ?><a href="<?= $urlClean .'&page='. strval($pageActual-1); ?>">Page précédente</a>  | <?php
                 endif;
             }
             ?><a href="<?= $urlClean .'&page='. strval($pageActual+1); ?>">Page suivante</a><?php
-        ?>
+        }?>
     </div>
 
 <?php include './partials/footer.php' ?>

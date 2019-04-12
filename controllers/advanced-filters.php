@@ -24,9 +24,12 @@ if(!empty($dateValue))
 {
     $localeDateValue = $dateValue . 'T00:00:00';
 }
-if($genreValue === 'all')
+if(!empty($genreValue))
 {
-    $genreValue = '';
+    if($genreValue === 'all')
+    {
+        $genreValue = '';
+    }
 }
 
 $title = 'Recherche';
