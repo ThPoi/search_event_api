@@ -582,6 +582,30 @@ header .container .header_nav ul li a {
     transform: translateY(-8px) rotate(45deg);
   }
 }
+.hidden {
+  display: none !important;
+}
+
+.loader_container {
+  display: none;
+}
+
+.loader_display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 300px;
+  margin: auto;
+}
+
+.pagination_container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .main_search_background {
   background: url("../images/background_advanced_filtrers.jpg") no-repeat;
   background-size: cover;
@@ -693,11 +717,17 @@ header .container .header_nav ul li a {
   border-right: 0px solid #EB606D;
 }
 
+.display_filters .filter {
+  background: #EB606D;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 3px;
+}
+
 .event_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   margin: auto;
   width: 90%;
 }
@@ -706,8 +736,8 @@ header .container .header_nav ul li a {
   width: 380px;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 2px;
 }
 .event_container .event_card p {
@@ -762,7 +792,8 @@ header .container .header_nav ul li a {
   color: grey;
   font-weight: 600;
 }
-.event_container .event_card .card_third_part .card_checkout {
+
+.card_checkout {
   background-color: #EB606D;
   display: flex;
   justify-content: center;
@@ -771,14 +802,20 @@ header .container .header_nav ul li a {
   height: 100%;
   width: 100px;
   height: 40px;
+  font-family: "Singulier Demi";
 }
-.event_container .event_card .card_third_part .card_checkout a {
+.card_checkout a {
   text-decoration: none;
   color: #ffffff;
   padding-right: 10px;
   padding-left: 10px;
 }
 
+@media screen and (max-width: 1200px) {
+  .event_container {
+    justify-content: space-around;
+  }
+}
 @media screen and (max-width: 900px) {
   .arrow_container {
     display: none;
