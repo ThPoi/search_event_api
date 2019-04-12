@@ -18,8 +18,8 @@ const eventContainer = document.querySelector('.event_container')
 const searchInput = document.querySelector('.main_search_event input')
 
 const submitCountry= document.querySelector('.submit-country')
-const searchFilterCountry = document.querySelector('.search-filter-country')
-const searchFilterCountryOption = document.querySelector('.search-filter-country option')
+const searchFilterCountry = document.querySelector('.search_filter_country')
+const searchFilterCountryOption = document.querySelector('.search_filter_country option')
 
 
 const loaderChange = () =>
@@ -106,7 +106,9 @@ submitCountry.addEventListener('click', function()
   searchFilterCountryOption[searchFilterCountry.selectedIndex].setAttribute('selected', 'selected')
   paramsString.search = searchParams.toString()
   newUrl += paramsString.toString()
+  console.log(newUrl)
   window.location.href = newUrl
+
 })
 
 
