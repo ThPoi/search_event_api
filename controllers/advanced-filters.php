@@ -8,9 +8,12 @@ if(!empty($_GET))
     $latValue = !empty($_GET['latitude']) ? $_GET['latitude'] : '';
     $longValue = !empty($_GET['longitude']) ? $_GET['longitude'] : '';
     $dateValue = !empty($_GET['date']) ? $_GET['date'] : '';
-    $countryCode = !empty($_GET['country']) ? $_GET['country'] : '';
+    $countryValue = !empty($_GET['country']) ? $_GET['country'] : '';
+    $familyValue = !empty($_GET['family']) ? $_GET['family'] : '';
+    $pageValue = !empty($_GET['page']) ? $_GET['page'] : '';
 
 }
+
 
 if(!empty($latValue) && !empty($longValue))
 {
@@ -27,14 +30,34 @@ $title = 'Recherche';
 
 
 
+function shapeSpace_remove_var($url, $key) {
+	$url = preg_replace('/(.*)(?|&)'. $key .'=[^&]+?(&)(.*)/i', '$1$2$4', $url .'&');
+	$url = substr($url, 0, -1);
+	return ($url);
+}
+
+function shapeSpace_add_var($url, $key, $value) {
+	
+	$url = preg_replace('/(.*)(?|&)'. $key .'=[^&]+?(&)(.*)/i', '$1$2$4', $url .'&');
+	$url = substr($url, 0, -1);
+	
+	if (strpos($url, '?') === false) {
+		return ($url .'?'. $key .'='. $value);
+	} else {
+		return ($url .'&'. $key .'='. $value);
+	}
+}
+
 $urlFilter = 'https://app.ticketmaster.com/discovery/v2/events.json?';
 $urlFilter .= http_build_query([
     'apikey' => '3gDxxU8POu1umcTRMNSF4AGqgtUzc2md',
-    'size' => '2',
+    'size' => '19',
+    'page' => !empty($pageValue) ? $pageValue : '1',
     'latlong' => !empty($positionValue) ? $positionValue : '',
-    'countryCode'=> !empty($countryCode) ? $countryCode : '',
+    'countryCode'=> !empty($countryValue) ? $countryValue : '',
     'genreId' => !empty($genreValue) ? $genreValue : '',
     'localStartDateTime' => !empty($localeDateValue) ? $localeDateValue : '',
+    'includeFamily' => !empty($familyValue) ? $familyValue : '',
 
 ]);
 

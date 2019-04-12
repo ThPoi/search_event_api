@@ -23,6 +23,30 @@
     }
 }
 
+.hidden {
+    display: none !important;
+}
+.loader_container {
+    display: none;
+
+}
+.loader_display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    
+
+
+}
+.pagination_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
 .main_search_background {
     background: url("../images/background_advanced_filtrers.jpg") no-repeat;
     background-size: cover;
@@ -188,11 +212,13 @@
         .card_second_part {
             display: flex;
             justify-content: space-between;
-            padding:5%;
+            padding: 5%;
             border-bottom: 1px solid $border;
 
-            .card_date_grey {
+            .card_date_hours {
                 margin-bottom: 5px;
+            }
+            .card_date_grey {
                 color: grey;
                 font-size: 0.8rem;
             }
