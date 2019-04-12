@@ -216,6 +216,10 @@ body {
   margin-top: 20px;
 }
 
+.mt-4 {
+  margin-top: 40px;
+}
+
 .price {
   font-weight: 800;
   font-size: 20px;
@@ -400,6 +404,7 @@ p {
   margin-bottom: 15px;
   font-size: 14px;
   color: #ff6b7c;
+  font-family: "Singulier Bold";
 }
 
 .adress-place {
@@ -459,14 +464,18 @@ p {
   color: #494949cc;
 }
 
-.full {
+div.full {
   width: 100%;
 }
 
 .full a {
   font-weight: bold;
   font-size: 15px;
-  font-family: Trebuchet MS;
+  font-family: "Singulier Regular";
+}
+
+.img-event {
+  max-width: 400px;
 }
 
 header {
@@ -535,7 +544,7 @@ header .container .header_nav ul li.active a {
   font-family: "Singulier Demi";
 }
 header .container .header_nav ul li {
-  padding: 12px 15px;
+  padding: 12px 5px;
   margin: 0px 5px 0;
   border-radius: 25px;
   transition: 0.4s ease-in-out;
@@ -573,30 +582,6 @@ header .container .header_nav ul li a {
     transform: translateY(-8px) rotate(45deg);
   }
 }
-.hidden {
-  display: none !important;
-}
-
-.loader_container {
-  display: none;
-}
-
-.loader_display {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  height: 300px;
-  margin: auto;
-}
-
-.pagination_container {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
 .main_search_background {
   background: url("../images/background_advanced_filtrers.jpg") no-repeat;
   background-size: cover;
@@ -708,17 +693,11 @@ header .container .header_nav ul li a {
   border-right: 0px solid #EB606D;
 }
 
-.display_filters .filter {
-  background: #EB606D;
-  color: #ffffff;
-  padding: 15px;
-  border-radius: 3px;
-}
-
 .event_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   margin: auto;
   width: 90%;
 }
@@ -727,8 +706,8 @@ header .container .header_nav ul li a {
   width: 380px;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 2px;
 }
 .event_container .event_card p {
@@ -783,8 +762,7 @@ header .container .header_nav ul li a {
   color: grey;
   font-weight: 600;
 }
-
-.card_checkout {
+.event_container .event_card .card_third_part .card_checkout {
   background-color: #EB606D;
   display: flex;
   justify-content: center;
@@ -793,20 +771,14 @@ header .container .header_nav ul li a {
   height: 100%;
   width: 100px;
   height: 40px;
-  font-family: "Singulier Demi";
 }
-.card_checkout a {
+.event_container .event_card .card_third_part .card_checkout a {
   text-decoration: none;
   color: #ffffff;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-@media screen and (max-width: 1200px) {
-  .event_container {
-    justify-content: space-around;
-  }
-}
 @media screen and (max-width: 900px) {
   .arrow_container {
     display: none;
@@ -840,6 +812,62 @@ header .container .header_nav ul li a {
     font-size: 0.8rem;
     margin-bottom: 2%;
   }
+}
+.content-banner-home {
+  flex: 0.5;
+  margin-top: 40px;
+}
+
+.img-banner-home {
+  width: 100%;
+}
+
+.center-all {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 0.5;
+  margin-top: 200px;
+}
+.center-all > div {
+  width: 70%;
+}
+
+h1 {
+  color: #EB606D;
+  font-size: 60px;
+  font-family: "Singulier Bold";
+  letter-spacing: -0.3px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+p.home {
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+}
+
+.first-button {
+  background: #EB606D;
+  margin-top: 20px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 11px #00000033;
+  font-family: "Singulier Demi";
+}
+.first-button a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.second-button {
+  color: #5a5a5a;
+  margin-top: 20px;
+  padding: 18px 10px 0 30px;
+  font-family: "Singulier Demi";
+}
+.second-button a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

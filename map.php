@@ -92,7 +92,7 @@ fetch(url)
         new mapboxgl.Marker(el)
             .setLngLat([marker._embedded.venues[0].location.longitude, marker._embedded.venues[0].location.latitude])
             .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-                .setHTML(`<div class="title-box"> ${marker.name} </div> <div class="card_checkout mt-2"><a href='./event?id=${marker.id}'>En savoir plus</a></div>`))
+                .setHTML(`<div class="title-box"> ${marker.name} </div> <div><img src="${marker.images[5].url}" class="img-event"/></div> <div class="card_checkout full mt-2"><a href='./event?id=${marker.id}'>En savoir plus</a></div>`))
             .addTo(map);
     });
 })

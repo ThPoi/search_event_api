@@ -82,7 +82,7 @@ foreach ($result->_embedded->events as $event) {
                         <div class="title-box">Price ranges</div>
                          <div class="price"><?= $event->priceRanges[0]->min ?> <?= $event->priceRanges[0]->currency ?> - 
                          <?= $event->priceRanges[0]->max ?> <?= $event->priceRanges[0]->currency ?></div>
-                         <div class="card_checkout full mt-2"><a href="<?= $event->url ?>">Checkout</a></div>
+                         <div class="card_checkout mt-2"><a href="<?= $event->url ?>">Checkout</a></div>
                     </div>
                     <?php } ?>
                     <?php if(isset($event->_embedded->venues[0]->images[0]->url)) { ?>
