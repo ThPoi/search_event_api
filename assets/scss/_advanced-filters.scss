@@ -152,15 +152,12 @@
             display: flex;
             align-items: center;
             height: 80px;
-            width: 80%;
+            width: 100%;
             
             .search_filter_emoji {
                 font-size: 20px;
                 margin-left: 10%;
                 margin-right: 5%;
-            }
-            p {
-                font-size: 1rem;
             }
         }      
         .search_filter:last-of-type {
@@ -179,9 +176,19 @@
     }
 }
 
+.center-title-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right:20px;
+    margin-left:20px;
+}
 
 p.filter {
     margin-bottom:0;
+    font-size:14px;
+    width: 100%;
+    text-align: center;
 }
 
 .event_container {
