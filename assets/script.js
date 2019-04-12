@@ -154,6 +154,8 @@ function getMyPosition() {
     }, function(error) {
       console.log("Erreur de géoloc N°"+error.code+" : "+error.message);
       console.log(error);
+      loaderChange()
+
 
     });
    }
