@@ -724,6 +724,10 @@ header .container .header_nav ul li a {
   border-radius: 3px;
 }
 
+p.filter {
+  margin-bottom: 0;
+}
+
 .event_container {
   display: flex;
   flex-wrap: wrap;
@@ -733,7 +737,7 @@ header .container .header_nav ul li a {
 }
 .event_container .event_card {
   border: 1px solid #EBEBEB;
-  width: 380px;
+  width: 472px;
   text-align: center;
   font-size: 0.9rem;
   margin-top: 20px;
