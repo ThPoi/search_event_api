@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_URL', 'http://localhost:8888/search_event_api/');
+define('BASE_URL', 'http://localhost:8888/Developpement/search_event_api/');
 define('API_TICKETMASTER', '3gDxxU8POu1umcTRMNSF4AGqgtUzc2md');
 define('API_GOOGLE', 'AIzaSyB5pRajp7ueuLle1uM4SDLGSLfaKrinVTY');
 

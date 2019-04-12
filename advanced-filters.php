@@ -17,11 +17,26 @@ include './partials/header.php';
             <div class="search_filter_container">
                 <div class="search_filter">
                     <div class="search_filter_type">
-                        <div class="search_filter_emoji">🎶</div>
+                        <div class="search_filter_emoji">🎉</div>
                         <p class="search_filter_name">Genres</p>
-                    </div>
-                    <div class="arrow_container">
-                        <div class="arrow"></div>
+                        <select class="select-genre">  
+                            <option value="all">Tous</option>  
+                            <option value="KnvZfZ7vAvv">Alternative</option>
+                            <option value="KnvZfZ7vAvd">Blues</option>
+                            <option value="KnvZfZ7vAvF">Dance/Electronic</option>
+                            <option value="KnvZfZ7vAeJ">Classical</option>
+                            <option value="KnvZfZ7vAv6">Country</option>
+                            <option value="KnvZfZ7vAv1">Hip-Hop/Rap</option>
+                            <option value="KnvZfZ7vAJ6">Latin</option>
+                            <option value="KnvZfZ7vAvE">Jazz</option>
+                            <option value="KnvZfZ7vAe7">Religious</option>
+                            <option value="KnvZfZ7vAvt">Metal</option>                        
+                            <option value="KnvZfZ7vAvl">Other</option>
+                            <option value="KnvZfZ7vAev">Rock</option>
+                            <option value="KnvZfZ7vAee">R&B</option>
+                            <option value="KnvZfZ7vAev">Pop</option>
+                        </select>
+                        <div class="submit-genre">Appliquer ce genre</div>
                     </div>
                 </div>
                 <div class="search_filter">
@@ -55,24 +70,7 @@ include './partials/header.php';
         </div>
         <div class="search_select_all">
             <div class="search_select-hidden select-0">
-                <select class="select-genre">  
-                    <option value="all">Tous</option>  
-                    <option value="KnvZfZ7vAvv">Alternative</option>
-                    <option value="KnvZfZ7vAvd">Blues</option>
-                    <option value="KnvZfZ7vAvF">Dance/Electronic</option>
-                    <option value="KnvZfZ7vAeJ">Classical</option>
-                    <option value="KnvZfZ7vAv6">Country</option>
-                    <option value="KnvZfZ7vAv1">Hip-Hop/Rap</option>
-                    <option value="KnvZfZ7vAJ6">Latin</option>
-                    <option value="KnvZfZ7vAvE">Jazz</option>
-                    <option value="KnvZfZ7vAe7">Religious</option>
-                    <option value="KnvZfZ7vAvt">Metal</option>                        
-                    <option value="KnvZfZ7vAvl">Other</option>
-                    <option value="KnvZfZ7vAev">Rock</option>
-                    <option value="KnvZfZ7vAee">R&B</option>
-                    <option value="KnvZfZ7vAev">Pop</option>
-                </select>
-                <div class="submit-genre">Appliquer ce genre</div>
+
             </div>
             <div class="search_select-hidden select-1">
                 <div class="checkbox-family">
@@ -102,7 +100,15 @@ include './partials/header.php';
     </div>
 </div>
 <div class="event_container"> 
-    <?php foreach($resultFilter->_embedded->events as $event): ?>
+    <?php 
+    if(empty($resultFilter->_embedded))
+    {
+        echo 'Aucun résultat, veuillez changez votre recherche';
+    }
+    else
+    {
+    foreach($resultFilter->_embedded->events as $event): 
+    ?>
     <div class="event_card">
         <div class="card_first_part">
             <img src="<?= $event->images[5]->url ?>">
@@ -126,7 +132,7 @@ include './partials/header.php';
             </div>
         </div>  
     </div>
-    <?php endforeach; ?>
+    <?php endforeach; } ?>
     </div>
     <div class="pagination_container">
         <?php
@@ -151,7 +157,7 @@ include './partials/header.php';
             }
             if(!empty($_GET['page'])){
                 if ($pageActual >= 1):
-                    ?><a href="<?= $urlClean .'&page='. strval($pageActual-1); ?>">Page précédente</a> | <?php
+                    ?><a href="<?= $urlClean .'&page='. strval($pageActual-1); ?>">Page précédente</a>  | <?php
                 endif;
             }
             ?><a href="<?= $urlClean .'&page='. strval($pageActual+1); ?>">Page suivante</a><?php

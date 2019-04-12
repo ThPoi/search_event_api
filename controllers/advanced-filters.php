@@ -11,6 +11,7 @@ if(!empty($_GET))
     $countryValue = !empty($_GET['country']) ? $_GET['country'] : '';
     $familyValue = !empty($_GET['family']) ? $_GET['family'] : '';
     $pageValue = !empty($_GET['page']) ? $_GET['page'] : '';
+    $keywordValue = !empty($_GET['keyword']) ? $_GET['keyword'] : '';
 
 }
 
@@ -52,6 +53,7 @@ $urlFilter = 'https://app.ticketmaster.com/discovery/v2/events.json?';
 $urlFilter .= http_build_query([
     'apikey' => '3gDxxU8POu1umcTRMNSF4AGqgtUzc2md',
     'size' => '19',
+    'keyword' => !empty($keywordValue) ? $keywordValue : '',
     'page' => !empty($pageValue) ? $pageValue : '1',
     'latlong' => !empty($positionValue) ? $positionValue : '',
     'countryCode'=> !empty($countryValue) ? $countryValue : '',

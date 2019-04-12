@@ -15,6 +15,8 @@ const selectSubmitDate = document.querySelector('.select-date')
 const loader = document.querySelector('.loader_container')
 const eventContainer = document.querySelector('.event_container')
 
+const searchInput = document.querySelector('.main_search_event input')
+
 
 const loaderChange = () =>
 {
@@ -63,6 +65,10 @@ if(searchParams.has('family'))
 {
   selectFamilyInput.setAttribute('checked', '')
 }
+if(searchParams.has('keyword'))
+{
+  searchInput.value = searchParams.get('keyword')
+}
 
 submitGenre.addEventListener('click', function()
 {
@@ -87,7 +93,18 @@ submitDate.addEventListener('click', function()
   window.location.href = newUrl
 })
  
- 
+searchInput.addEventListener('keypress', (_event) => {
+  if(_event.code==='Enter') 
+  {
+    const valueSearchInput = searchInput.value
+    searchParams.delete('keyword')
+    searchParams.append('keyword', valueSearchInput)
+    paramsString.search = searchParams.toString()
+    newUrl += paramsString.toString()
+    window.location.href = newUrl
+  }
+})
+
 selectFamily.addEventListener('click', () => {
     
   loaderChange()
