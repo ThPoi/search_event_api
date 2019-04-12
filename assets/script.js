@@ -17,6 +17,10 @@ const eventContainer = document.querySelector('.event_container')
 
 const searchInput = document.querySelector('.main_search_event input')
 
+const submitCountry= document.querySelector('.submit-country')
+const searchFilterCountry = document.querySelector('.search-filter-country')
+const searchFilterCountryOption = document.querySelector('.search-filter-country option')
+
 
 const loaderChange = () =>
 {
@@ -61,6 +65,17 @@ if(searchParams.has('genre'))
     }
   })
 }
+if(searchParams.has('country'))
+{  
+  selectFilterCountryOption.forEach(function(_elementOption, index)
+  {
+    if(_elementOption.value == searchParams.get('country'))
+    {
+      _elementOption.setAttribute('selected', '')
+    }
+  })
+}
+
 if(searchParams.has('family'))
 {
   selectFamilyInput.setAttribute('checked', '')
@@ -81,6 +96,19 @@ submitGenre.addEventListener('click', function()
   newUrl += paramsString.toString()
   window.location.href = newUrl
 })
+
+submitCountry.addEventListener('click', function()
+{
+  loaderChange()
+  const valueSelectCountry = searchFilterCountry[searchFilterCountry.selectedIndex].value
+  searchParams.delete('country')
+  searchParams.append('country', valueSelectCountry)
+  searchFilterCountryOption[searchFilterCountry.selectedIndex].setAttribute('selected', 'selected')
+  paramsString.search = searchParams.toString()
+  newUrl += paramsString.toString()
+  window.location.href = newUrl
+})
+
 
 submitDate.addEventListener('click', function()
 {

@@ -8,7 +8,7 @@ if(!empty($_GET))
     $latValue = !empty($_GET['latitude']) ? $_GET['latitude'] : '';
     $longValue = !empty($_GET['longitude']) ? $_GET['longitude'] : '';
     $dateValue = !empty($_GET['date']) ? $_GET['date'] : '';
-    $countryValue = !empty($_GET['cou   ntry']) ? $_GET['country'] : '';
+    $countryValue = !empty($_GET['country']) ? $_GET['country'] : '';
     $familyValue = !empty($_GET['family']) ? $_GET['family'] : '';
     $pageValue = !empty($_GET['page']) ? $_GET['page'] : '';
     $keywordValue = !empty($_GET['keyword']) ? $_GET['keyword'] : '';
