@@ -379,6 +379,7 @@ include './partials/header.php';
     else
     {
     foreach($resultFilter->_embedded->events as $event): 
+        $eroror = false;
     ?>
     <div class="event_card">
         <div class="card_first_part">
@@ -408,7 +409,7 @@ include './partials/header.php';
     <div class="pagination_container">
         <?php
     
-            $temp = preg_match("/^http:(.*)/", "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'], $lien);
+            $temp = preg_match("/^https:(.*)/", "https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'], $lien);
     
             $urlClean = shapeSpace_remove_var($lien[0], 'page');
             $pageActual;
@@ -426,11 +427,14 @@ include './partials/header.php';
             {
                 $pageActual = 1;
             }
-            if(!($error)) {
-            if(!empty($_GET['page'])){
-                if ($pageActual >= 1):
-                    ?><a href="<?= $urlClean .'&page='. strval($pageActual-1); ?>">Page précédente</a>  | <?php
-                endif;
+            if(isset($error)) {
+
+                if(!($error)) {
+                    if(!empty($_GET['page'])){
+                        if ($pageActual >= 1):
+                            ?><a href="<?= $urlClean .'&page='. strval($pageActual-1); ?>">Page précédente</a>  | <?php
+                        endif;
+                    }
             }
             ?><a href="<?= $urlClean .'&page='. strval($pageActual+1); ?>">Page suivante</a><?php
         }?>
