@@ -400,7 +400,7 @@ include './partials/header.php';
                 <p class="card_location"><?= $event->_embedded->venues[0]->city->name .','. $event->_embedded->venues[0]->country->name?></p>
             </div>
             <div class="card_checkout">
-                <a href=<?= 'event/'.$event->id ?>>Détails ></a>
+                <a href="<?= 'event?id='.$event->id ?>">Détails ></a>
             </div>
         </div>  
     </div>
