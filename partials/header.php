@@ -37,11 +37,11 @@
 	<meta property="og:description" content="">
 	<meta property="og:title"  content="Festifun - Found your event">
 	<meta property="og:site_name" content="Festifun">
-	<meta property="og:url" content="http://narty.fr">
+	<meta property="og:url" content="http://narty.fr/festifun/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,600,700,800|PT+Sans:400,700" rel="stylesheet">
+    <link rel="icon" href="<?= BASE_URL ?>favicon.ico" />
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
     <title><?= !empty($title) ? $title : '' ?></title>
