@@ -87,6 +87,10 @@ body {
     margin-top:20px;
 }
 
+.mt-4 {
+    margin-top:40px;
+}
+
 .price {
     font-weight: 800;
     font-size: 20px;
@@ -265,7 +269,8 @@ p {
     font-weight:800;
     margin-bottom:15px;
     font-size:14px;
-    color:#ff6b7c;
+    color: #ff6b7c;
+    font-family: "Singulier Bold";
 }
 
 .adress-place {
@@ -324,12 +329,16 @@ p {
     font-family: "Singulier Demi";
     color: #494949cc;
 }
-.full {
+div.full {
     width:100%;
 }
 
 .full a {
     font-weight: bold;
     font-size: 15px;
-    font-family: Trebuchet MS;
+    font-family: 'Singulier Regular';
+}
+
+.img-event {
+    max-width:400px;
 }
