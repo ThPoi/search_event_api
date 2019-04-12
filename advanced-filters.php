@@ -43,52 +43,25 @@ include './partials/header.php';
                     <div class="search_filter_type">
                         <div class="search_filter_emoji">🎉</div>
                         <p class="search_filter_name">Pour les familles</p>
-                    </div>
-                    <div class="arrow_container">
-                        <div class="arrow"></div>
+                        <input class="checkbox-family-input" type="checkbox" name="family"/>
+                        <label for="family">Adapté aux familles </label>
                     </div>
                 </div>
                 <div class="search_filter">
                     <div class="search_filter_type">
                         <div class="search_filter_emoji">📍</div>
                         <p class="search_filter_name">Localisation</p>
-                    </div>
-                    <div class="arrow_container">
-                        <div class="arrow"></div>
+                        <div name="select" onclick="getMyPosition()">Autour de moi
+                        </div>
                     </div>
                 </div>
                 <div class="search_filter">
                     <div class="search_filter_type">
                         <div class="search_filter_emoji">📅</div>
                         <p class="search_filter_name">Date</p>
+                        <input class="select-date" type="date"/>       
+                        <div class="submit-date">Appliquer cette date</div>
                     </div>
-                    <div class="arrow_container">
-                        <div class="arrow"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="search_select_all">
-            <div class="search_select-hidden select-0">
-
-            </div>
-            <div class="search_select-hidden select-1">
-                <div class="checkbox-family">
-                    <input class="checkbox-family-input" type="checkbox" name="family"/>
-                    <label for="family">Adapté aux familles </label>
-                </div>
-            </div>
-            <div class="search_select-hidden select-2">
-                <div> 
-                    <div name="select" onclick="getMyPosition()">Autour de moi
-                    </div>
-
-                </div>
-            </div>
-            <div class="search_select-hidden select-3">
-                <div> 
-                    <input class="select-date" type="date"/>                    
-                    <div class="submit-date">Appliquer cette date</div>
                 </div>
             </div>
         </div>
